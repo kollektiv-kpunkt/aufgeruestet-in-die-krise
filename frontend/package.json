@@ -1,0 +1,17 @@
+{
+    "name": "aufgeruestet-in-die-krise",
+    "version": "1.0.0",
+    "description": "Webpage for Gruppe für eine Schweiz ohne Armee GSoA illustrating the proposed increase of the Swiss Army's budget (heavily inspired by https://mkorostoff.github.io/1-pixel-wealth/).",
+    "main": "index.js",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise/issues"
+    },
+    "homepage": "https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise#readme"
+}
