@@ -1,0 +1,25 @@
+.gsoa-fp-intro {
+    width: 100vw;
+    max-width: calc(29rem + 4rem);
+    flex-shrink: 0;
+}
+
+.gsoa-fp-chart-upper,
+.gsoa-fp-chart-lower {
+    height: 25%;
+}
+
+.gsoa-fp-chart-mid {
+    height: 50%;
+    background-image: url("/img/baro.svg");
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+
+    .gsoa-sticker {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: fit-content;
+        padding: 1rem;
+    }
+}

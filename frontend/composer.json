@@ -1,14 +1,17 @@
 {
-    "name": "timothy/aufgeruestet-in-die-krise",
-    "description": "Webpage for Gruppe für eine Schweiz ohne Armee GSoA illustrating the proposed increase of the Swiss Army's budget (heavily inspired by https://mkorostoff.github.io/1-pixel-wealth/).",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Timothy Oesch",
-            "email": "timothy@kpunkt.ch"
-        }
-    ],
-    "require": {
-        "pecee/simple-router": "4.3.7.2"
+  "name": "timothy/aufgeruestet-in-die-krise",
+  "description": "Webpage for Gruppe für eine Schweiz ohne Armee GSoA illustrating the proposed increase of the Swiss Army's budget (heavily inspired by https://mkorostoff.github.io/1-pixel-wealth/).",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Timothy Oesch",
+      "email": "timothy@kpunkt.ch"
     }
+  ],
+  "require": {
+    "pecee/simple-router": "4.3.7.2",
+    "vlucas/phpdotenv": "^5.4",
+    "ramsey/uuid": "^4.4",
+    "twig/twig": "^3.0"
+  }
 }

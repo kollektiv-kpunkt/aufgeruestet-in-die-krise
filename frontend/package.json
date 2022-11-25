@@ -1,17 +1,42 @@
 {
-    "name": "aufgeruestet-in-die-krise",
-    "version": "1.0.0",
-    "description": "Webpage for Gruppe für eine Schweiz ohne Armee GSoA illustrating the proposed increase of the Swiss Army's budget (heavily inspired by https://mkorostoff.github.io/1-pixel-wealth/).",
-    "main": "index.js",
-    "private": true,
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise.git"
-    },
-    "author": "",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise/issues"
-    },
-    "homepage": "https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise#readme"
+  "name": "aufgeruestet-in-die-krise",
+  "version": "1.0.0",
+  "description": "Webpage for Gruppe für eine Schweiz ohne Armee GSoA illustrating the proposed increase of the Swiss Army's budget (heavily inspired by https://mkorostoff.github.io/1-pixel-wealth/).",
+  "main": "index.js",
+  "private": true,
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "fast-glob": "^3.2.11",
+    "laravel-mix": "^6.0.43",
+    "normalize.css": "^8.0.1",
+    "postcss-nested": "^5.0.6",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^3.0.23",
+    "webpack-cli": "^4.9.2",
+    "webpack-livereload-plugin": "^3.0.2"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise/issues"
+  },
+  "homepage": "https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise#readme",
+  "dependencies": {
+    "feather-icons": "^4.29.0"
+  }
 }
