@@ -22,23 +22,9 @@
                     data-feather="arrow-right" class="inline w-6 h-6"></i></a>
         </div>
         <div class="gsoa-fp-screen gsoa-fp-chart h-full flex flex-col">
-            <div class="gsoa-fp-chart-partial gsoa-fp-chart-upper"></div>
-            <div class="gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent" style="width: 1880000px;">
-                <div class="gsoa-sticker font-extrabold text-xl">
-                    4.9 Mia CHF
-                </div>
-            </div>
-            <div class="gsoa-fp-chart-partial gsoa-fp-chart-lower">
-                <div class="gsoa-fp-chart-counter w-screen px-4 py-1 sticky top-0 left-0 text-white">
-                    <p class="text-sm italic mb-8 opacity-0 transition-opacity duration-100">uwu</p>
-                    <div
-                        class="gsoa-fp-progressbar w-full h-6 outline-4 outline-accent outline rounded-full outline-offset-4 flex relative">
-                        <div class="gsoa-fp-progressbar-inner bg-accent rounded-full transition-all duration-500"
-                            style="width: 0%;"></div>
-                        <p class="absolute top-1/2 left-1/2" style="transform: translate(-50%, -50%);">0%</p>
-                    </div>
-                </div>
-            </div>
+            {% include ("elements/chart/upper.html") %}
+            {% include ("elements/chart/mid.html") %}
+            {% include ("elements/chart/lower.html") %}
         </div>
         <div class="gsoa-fp-screen gsoa-fp-outro flex-shrink-0 h-full w-screen p-8 text-white" id="outro">
             <h1 class="text-5xl font-extrabold mb-4">Aufgerüstet in die Krise.</h1>
