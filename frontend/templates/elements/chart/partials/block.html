@@ -2,7 +2,8 @@
 <div class="gsoa-fp-chart-block-outer gsoa-fp-chart-element gsoa-set-width bg-black" style="--amount: {{ step.amount}}; --bheight: {{step.height}}">
     <div class="gsoa-fp-chart-block-content p-4 text-accent w-fit sticky top-0 left-0">
         <h2 class="text-xl font-extrabold mb-0">{{step.title}}</h2>
-        <p class="gsoa-fp-chart-block-description italic text-sm">{{ step.description }}</p>
+        <p class="gsoa-fp-chart-block-description italic text-sm mb-0">{{ step.description }}</p>
+        <p class="mt-0 italic" style="font-size: 0.5rem;">{{ (step.amount / 4900000000 * 100) |round(2)}}%</p>
     </div>
 </div>
 {% else %}
@@ -11,6 +12,7 @@
     <div class="gsoa-fp-chart-block-content p-2">
         <h2 class="text-xl font-extrabold mb-0">{{step.title}}</h2>
         <p class="gsoa-fp-chart-block-description italic text-sm">{{ step.description }}</p>
+        <p class="mt-0 italic" style="font-size: 0.5rem;">{{ (step.amount / 4900000000 * 100) |round(5)}}%</p>
     </div>
 </div>
 {% endif %}

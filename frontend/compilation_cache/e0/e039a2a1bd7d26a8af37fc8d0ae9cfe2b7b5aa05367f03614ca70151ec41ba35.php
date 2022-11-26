@@ -36,7 +36,7 @@ class __TwigTemplate_6cc5093e4cc3c8f3d436549db945adf5d7ab95a4b1bd3ccb7a1b80102e4
         // line 1
         echo "<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-lower\">
     <div class=\"gsoa-fp-chart-counter w-screen px-4 py-1 sticky top-0 left-0 text-white\">
-        <p class=\"gsoa-fp-chart-counter-number text-sm italic mb-8 opacity-0 transition-opacity duration-500\">0CHF</p>
+        <p class=\"gsoa-fp-chart-counter-number text-sm italic mb-8\">CHF 0</p>
         <div
             class=\"gsoa-fp-progressbar w-full h-6 outline-accent outline rounded-full flex relative\">
             <div class=\"gsoa-fp-progressbar-inner bg-accent rounded-full\"
@@ -62,7 +62,7 @@ class __TwigTemplate_6cc5093e4cc3c8f3d436549db945adf5d7ab95a4b1bd3ccb7a1b80102e4
     {
         return new Source("<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-lower\">
     <div class=\"gsoa-fp-chart-counter w-screen px-4 py-1 sticky top-0 left-0 text-white\">
-        <p class=\"gsoa-fp-chart-counter-number text-sm italic mb-8 opacity-0 transition-opacity duration-500\">0CHF</p>
+        <p class=\"gsoa-fp-chart-counter-number text-sm italic mb-8\">CHF 0</p>
         <div
             class=\"gsoa-fp-progressbar w-full h-6 outline-accent outline rounded-full flex relative\">
             <div class=\"gsoa-fp-progressbar-inner bg-accent rounded-full\"

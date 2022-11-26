@@ -55,7 +55,7 @@ class __TwigTemplate_9e88f5f7d3894673b14fe5a0fb1f0ca3dcc225190a15e9b5916364181e6
                     nisi. Sed mi
                     augue vitae nisi vitae ac tellus molestie.</p>
             </div>
-            <a href=\"#outro\" class=\"gsoa-fp-intro-button text-accent font-extrabold\">Scroll nach rechts <i
+            <a class=\"gsoa-fp-intro-button text-accent font-extrabold\">Scroll nach rechts <i
                     data-feather=\"arrow-right\" class=\"inline w-6 h-6\"></i></a>
         </div>
         <div class=\"gsoa-fp-screen gsoa-fp-chart h-full flex flex-col\">
@@ -134,7 +134,7 @@ class __TwigTemplate_9e88f5f7d3894673b14fe5a0fb1f0ca3dcc225190a15e9b5916364181e6
                     nisi. Sed mi
                     augue vitae nisi vitae ac tellus molestie.</p>
             </div>
-            <a href=\"#outro\" class=\"gsoa-fp-intro-button text-accent font-extrabold\">Scroll nach rechts <i
+            <a class=\"gsoa-fp-intro-button text-accent font-extrabold\">Scroll nach rechts <i
                     data-feather=\"arrow-right\" class=\"inline w-6 h-6\"></i></a>
         </div>
         <div class=\"gsoa-fp-screen gsoa-fp-chart h-full flex flex-col\">
