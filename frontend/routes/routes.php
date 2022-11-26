@@ -19,5 +19,6 @@ Router::get('/', function() use ($twig) {
         "title" => "Die Zahlen",
         "OG" => "/img/og.png"
     ];
-    return $twig->render("homepage.html" , ["page" => $page, "environment" => $_ENV]);
+    $config = json_decode(file_get_contents(__DIR__ . "/../config/fp-conf.json"), true);
+    return $twig->render("homepage.html" , ["page" => $page, "environment" => $_ENV, "config" => $config]);
 });
