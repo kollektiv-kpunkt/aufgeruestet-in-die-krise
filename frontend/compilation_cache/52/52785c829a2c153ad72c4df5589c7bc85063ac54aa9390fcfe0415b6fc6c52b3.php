@@ -34,11 +34,12 @@ class __TwigTemplate_bbd994aeca7d7fed8cdabb21b4f943f8bf7ab28a8e1c2fe721f44d0829a
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-upper\">
-";
+        echo "<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-upper relative\">
+    ";
         // line 2
         $context["steps"] = twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "upper", [], "any", false, false, false, 2);
         // line 3
+        echo "    ";
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["steps"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["step"]) {
@@ -46,22 +47,18 @@ class __TwigTemplate_bbd994aeca7d7fed8cdabb21b4f943f8bf7ab28a8e1c2fe721f44d0829a
             echo "    ";
             if ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 4) == "space")) {
                 // line 5
-                echo "        ";
+                echo "    ";
                 $this->loadTemplate("elements/chart/partials/space.html", "elements/chart/upper.html", 5)->display(twig_to_array(["step" => $context["step"]]));
                 // line 6
                 echo "    ";
-            } elseif ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 6) == "text")) {
-                // line 7
-                echo "        ";
-                $this->loadTemplate("elements/chart/partials/text.html", "elements/chart/upper.html", 7)->display(twig_to_array(["step" => $context["step"]]));
-                // line 8
-                echo "    ";
             }
+            // line 7
+            echo "    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['step'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 10
+        // line 8
         echo "
 </div>";
     }
@@ -78,20 +75,18 @@ class __TwigTemplate_bbd994aeca7d7fed8cdabb21b4f943f8bf7ab28a8e1c2fe721f44d0829a
 
     public function getDebugInfo()
     {
-        return array (  65 => 10,  58 => 8,  55 => 7,  52 => 6,  49 => 5,  46 => 4,  42 => 3,  40 => 2,  37 => 1,);
+        return array (  62 => 8,  56 => 7,  53 => 6,  50 => 5,  47 => 4,  42 => 3,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-upper\">
-{% set steps = config.upper %}
-{% for step in steps %}
+        return new Source("<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-upper relative\">
+    {% set steps = config.upper %}
+    {% for step in steps %}
     {% if step.type == \"space\" %}
-        {% include \"elements/chart/partials/space.html\" with {\"step\": step} only %}
-    {% elseif step.type == \"text\" %}
-        {% include \"elements/chart/partials/text.html\" with {\"step\": step} only %}
+    {% include \"elements/chart/partials/space.html\" with {\"step\": step} only %}
     {% endif %}
-{% endfor %}
+    {% endfor %}
 
 </div>", "elements/chart/upper.html", "/var/www/html/templates/elements/chart/upper.html");
     }

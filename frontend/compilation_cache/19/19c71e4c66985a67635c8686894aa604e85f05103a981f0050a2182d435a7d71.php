@@ -34,30 +34,34 @@ class __TwigTemplate_670fd75a5a988f3f96d0ed2c06d01c604b8240151229a912dbe03576459
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"gsoa-fp-chart-element gsoa-fp-chart-text-outer flex items-center gsoa-set-width\" style=\"--amount: ";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 1), "html", null, true);
+        echo "<div class=\"gsoa-fp-chart-element gsoa-fp-chart-text-outer flex items-center absolute\"
+    style=\"width: ";
+        // line 2
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", false, false, false, 2), "html", null, true);
+        echo "; left: ";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "position", [], "any", false, false, false, 2), "html", null, true);
         echo "\">
     <div class=\"gsoa-fp-chart-inner w-screen sticky top-0 left-0\">
         ";
-        // line 3
+        // line 4
         if (($context["color"] ?? null)) {
-            // line 4
-            echo "            ";
-            $context["color"] = ($context["color"] ?? null);
             // line 5
             echo "        ";
-        } else {
+            $context["color"] = ($context["color"] ?? null);
             // line 6
-            echo "            ";
-            $context["color"] = "text-white";
+            echo "        ";
+        } else {
             // line 7
             echo "        ";
+            $context["color"] = "text-white";
+            // line 8
+            echo "        ";
         }
-        // line 8
+        // line 9
         echo "        <p class=\"w-full text-center font-extrabold ";
         echo twig_escape_filter($this->env, ($context["color"] ?? null), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "text", [], "any", false, false, false, 8), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "text", [], "any", false, false, false, 9), "html", null, true);
         echo "</p>
     </div>
 </div>";
@@ -75,17 +79,18 @@ class __TwigTemplate_670fd75a5a988f3f96d0ed2c06d01c604b8240151229a912dbe03576459
 
     public function getDebugInfo()
     {
-        return array (  57 => 8,  54 => 7,  51 => 6,  48 => 5,  45 => 4,  43 => 3,  37 => 1,);
+        return array (  61 => 9,  58 => 8,  55 => 7,  52 => 6,  49 => 5,  47 => 4,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"gsoa-fp-chart-element gsoa-fp-chart-text-outer flex items-center gsoa-set-width\" style=\"--amount: {{step.amount}}\">
+        return new Source("<div class=\"gsoa-fp-chart-element gsoa-fp-chart-text-outer flex items-center absolute\"
+    style=\"width: {{step.width}}; left: {{step.position}}\">
     <div class=\"gsoa-fp-chart-inner w-screen sticky top-0 left-0\">
         {% if color %}
-            {% set color = color %}
+        {% set color = color %}
         {% else %}
-            {% set color = \"text-white\" %}
+        {% set color = \"text-white\" %}
         {% endif %}
         <p class=\"w-full text-center font-extrabold {{color}}\">{{ step.text }}</p>
     </div>

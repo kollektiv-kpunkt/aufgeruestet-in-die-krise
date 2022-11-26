@@ -15,7 +15,7 @@ function setProgress(scrollBody) {
   progressBarInner.style.width = `${progressPercent.toFixed(2)}%`;
 
   const counterNumber = document.querySelector(".gsoa-fp-chart-counter-number");
-  const amount = (4900000000 * (progressPercent / 100)).toLocaleString('de-CH', { style: 'currency', currency: 'CHF' });
+  const amount = (9400000000 * (progressPercent / 100)).toLocaleString('de-CH', { style: 'currency', currency: 'CHF' });
   counterNumber.innerText = `${amount}`;
   const jumper = document.querySelector(".gsoa-fp-chart-jumper");
   if (progressPercent > 5) {

@@ -1,16 +1,17 @@
 {% set steps = config.mid %}
-<div class="gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent relative gsoa-set-width items-center" style="--amount: 4900000000">
+<div class="gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent relative gsoa-set-width items-center"
+    style="--amount: 9400000000">
     <div class="gsoa-sticker font-extrabold text-xl h-full">
-        4.9 Mia CHF
+        9.4 Mia CHF
     </div>
     <div class="gsoa-fp-chart-scale"></div>
     {% for step in steps %}
-        {% if step.type == "space" %}
-            {% include "elements/chart/partials/space.html" with {"step": step} only %}
-        {% elseif step.type == "text" %}
-            {% include "elements/chart/partials/text.html" with {"step": step, color: "text-black"} only %}
-        {% elseif step.type == "block" %}
-            {% include "elements/chart/partials/block.html" with {"step": step} only %}
-        {% endif %}
+    {% if step.type == "space" %}
+    {% include "elements/chart/partials/space.html" with {"step": step} only %}
+    {% elseif step.type == "text" %}
+    {% include "elements/chart/partials/text.html" with {"step": step, color: "text-black"} only %}
+    {% elseif step.type == "block" %}
+    {% include "elements/chart/partials/block.html" with {"step": step} only %}
+    {% endif %}
     {% endfor %}
 </div>

@@ -1,11 +1,9 @@
-<div class="gsoa-fp-chart-partial gsoa-fp-chart-upper">
-{% set steps = config.upper %}
-{% for step in steps %}
+<div class="gsoa-fp-chart-partial gsoa-fp-chart-upper relative">
+    {% set steps = config.upper %}
+    {% for step in steps %}
     {% if step.type == "space" %}
-        {% include "elements/chart/partials/space.html" with {"step": step} only %}
-    {% elseif step.type == "text" %}
-        {% include "elements/chart/partials/text.html" with {"step": step} only %}
+    {% include "elements/chart/partials/space.html" with {"step": step} only %}
     {% endif %}
-{% endfor %}
+    {% endfor %}
 
 </div>

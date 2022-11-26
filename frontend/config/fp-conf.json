@@ -1,50 +1,34 @@
 {
+  "version" : 1.0,
   "upper": [
     {
-      "type": "space",
-      "amount": "60000000"
-    },
-    {
       "type": "text",
-      "text": "4.9 Milliarden? Ach du meine Güte...",
-      "amount": "90000000"
-    },
-    {
-      "type": "space",
-      "width": "15000px"
+      "text": "9.4 Milliarden? Ach du meine Güte...",
+      "width": "0.5%",
+      "position": "1%"
     }
   ],
   "mid": [
     {
-      "type": "space",
-      "amount": "200000"
-    },
-    {
       "type": "text",
       "text": "Dieser Balken stellt die 4.9 Milliarden Franken dar, welcher der Bund ausgeben will.",
-      "amount": "40000000"
-    },
-    {
-      "type": "space",
-      "amount": "4000000"
+      "width": "0.5%",
+      "position": "0.1%"
     },
     {
       "type": "block",
       "title": "6 Mio CHF",
       "description": "Durch den Bund getragenen Impfkosten",
+      "position": "1%",
       "amount": "6000000",
-      "height": 2
-    },
-    {
-      "type": "space",
-      "amount": "1500000"
+      "height": 1.5
     },
     {
       "type": "block",
-      "title": "4800 CHF",
       "description": "Kosten für eine Geburt in einem öffentlichen Spital",
-      "amount": "4800",
-      "height": 50
+      "position": "1.2%",
+      "amount": "94000",
+      "height": 10
     }
   ]
 }

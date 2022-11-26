@@ -36,44 +36,45 @@ class __TwigTemplate_70294af717ac2e4da9e593d8eda846400bd5458e39ca3dcce6434946341
         // line 1
         $context["steps"] = twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "mid", [], "any", false, false, false, 1);
         // line 2
-        echo "<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent relative gsoa-set-width items-center\" style=\"--amount: 4900000000\">
+        echo "<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent relative gsoa-set-width items-center\"
+    style=\"--amount: 9400000000\">
     <div class=\"gsoa-sticker font-extrabold text-xl h-full\">
-        4.9 Mia CHF
+        9.4 Mia CHF
     </div>
     <div class=\"gsoa-fp-chart-scale\"></div>
     ";
-        // line 7
+        // line 8
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["steps"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["step"]) {
-            // line 8
-            echo "        ";
-            if ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 8) == "space")) {
-                // line 9
-                echo "            ";
-                $this->loadTemplate("elements/chart/partials/space.html", "elements/chart/mid.html", 9)->display(twig_to_array(["step" => $context["step"]]));
+            // line 9
+            echo "    ";
+            if ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 9) == "space")) {
                 // line 10
-                echo "        ";
-            } elseif ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 10) == "text")) {
+                echo "    ";
+                $this->loadTemplate("elements/chart/partials/space.html", "elements/chart/mid.html", 10)->display(twig_to_array(["step" => $context["step"]]));
                 // line 11
-                echo "            ";
-                $this->loadTemplate("elements/chart/partials/text.html", "elements/chart/mid.html", 11)->display(twig_to_array(["step" => $context["step"], "color" => "text-black"]));
+                echo "    ";
+            } elseif ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 11) == "text")) {
                 // line 12
-                echo "        ";
-            } elseif ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 12) == "block")) {
+                echo "    ";
+                $this->loadTemplate("elements/chart/partials/text.html", "elements/chart/mid.html", 12)->display(twig_to_array(["step" => $context["step"], "color" => "text-black"]));
                 // line 13
-                echo "            ";
-                $this->loadTemplate("elements/chart/partials/block.html", "elements/chart/mid.html", 13)->display(twig_to_array(["step" => $context["step"]]));
+                echo "    ";
+            } elseif ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 13) == "block")) {
                 // line 14
-                echo "        ";
+                echo "    ";
+                $this->loadTemplate("elements/chart/partials/block.html", "elements/chart/mid.html", 14)->display(twig_to_array(["step" => $context["step"]]));
+                // line 15
+                echo "    ";
             }
-            // line 15
+            // line 16
             echo "    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['step'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 16
+        // line 17
         echo "</div>";
     }
 
@@ -89,25 +90,26 @@ class __TwigTemplate_70294af717ac2e4da9e593d8eda846400bd5458e39ca3dcce6434946341
 
     public function getDebugInfo()
     {
-        return array (  77 => 16,  71 => 15,  68 => 14,  65 => 13,  62 => 12,  59 => 11,  56 => 10,  53 => 9,  50 => 8,  46 => 7,  39 => 2,  37 => 1,);
+        return array (  78 => 17,  72 => 16,  69 => 15,  66 => 14,  63 => 13,  60 => 12,  57 => 11,  54 => 10,  51 => 9,  47 => 8,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% set steps = config.mid %}
-<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent relative gsoa-set-width items-center\" style=\"--amount: 4900000000\">
+<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent relative gsoa-set-width items-center\"
+    style=\"--amount: 9400000000\">
     <div class=\"gsoa-sticker font-extrabold text-xl h-full\">
-        4.9 Mia CHF
+        9.4 Mia CHF
     </div>
     <div class=\"gsoa-fp-chart-scale\"></div>
     {% for step in steps %}
-        {% if step.type == \"space\" %}
-            {% include \"elements/chart/partials/space.html\" with {\"step\": step} only %}
-        {% elseif step.type == \"text\" %}
-            {% include \"elements/chart/partials/text.html\" with {\"step\": step, color: \"text-black\"} only %}
-        {% elseif step.type == \"block\" %}
-            {% include \"elements/chart/partials/block.html\" with {\"step\": step} only %}
-        {% endif %}
+    {% if step.type == \"space\" %}
+    {% include \"elements/chart/partials/space.html\" with {\"step\": step} only %}
+    {% elseif step.type == \"text\" %}
+    {% include \"elements/chart/partials/text.html\" with {\"step\": step, color: \"text-black\"} only %}
+    {% elseif step.type == \"block\" %}
+    {% include \"elements/chart/partials/block.html\" with {\"step\": step} only %}
+    {% endif %}
     {% endfor %}
 </div>", "elements/chart/mid.html", "/var/www/html/templates/elements/chart/mid.html");
     }
