@@ -1,11 +1,16 @@
-.gsoa-fp-intro {
+.gsoa-fp-intro-wrapper {
     width: 100vw;
-    max-width: calc(29rem + 4rem);
     flex-shrink: 0;
+
+    .gsoa-fp-intro {
+        width: 100vw;
+        max-width: calc(29rem + 4rem);
+        flex-shrink: 0;
+    }
 }
 
 .gsoa-fp-chart {
-    --ppa: 0.0000078vw;
+    --ppa: 0.000017vw;
 
     @media (max-width: 780px) {
         --ppa: 0.00002vw;
@@ -44,7 +49,7 @@
             background-image: url("/img/scale.svg");
             background-size: calc(1000000 * var(--ppa)) auto;
             background-repeat: no-repeat;
-            background-position: calc(6000000 * var(--ppa)) bottom;
+            background-position: calc(71000000 * var(--ppa)) bottom;
         }
 
         .gsoa-fp-chart-block-outer {
@@ -53,7 +58,12 @@
         }
 
         .gsoa-fp-chart-block-description {
-            max-width: 50vw;
+            max-width: 60vw;
+        }
+
+        .gsoa-fp-chart-text-inner p {
+            max-width: 75vw;
+            margin: 0 auto;
         }
     }
 
