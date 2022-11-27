@@ -48,58 +48,60 @@ class __TwigTemplate_d1cc4a420d8262e7363cf49f227392c2eb9e5d6e528eeb96945ea62348a
     <div class=\"gsoa-fp-chart-block-content p-4 text-accent w-fit sticky top-0 left-0\">
         <h2 class=\"text-xl font-extrabold mb-0\">";
             // line 5
-            echo twig_escape_filter($this->env, ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "title", [], "any", true, true, false, 5)) ? (_twig_default_filter(twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "title", [], "any", false, false, false, 5), (twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 5) . " CHF"))) : ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 5) . " CHF"))), "html", null, true);
-            echo "</h2>
+            echo twig_escape_filter($this->env, twig_number_format_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 5), 0, ".", "'"), "html", null, true);
+            echo " CHF</h2>
         <p class=\"gsoa-fp-chart-block-description italic text-sm mb-0\">";
             // line 6
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "description", [], "any", false, false, false, 6), "html", null, true);
             echo "</p>
-        <p class=\"mt-0 italic\" style=\"font-size: 0.5rem;\">";
+        <p class=\"mt-0 italic\" style=\"font-size: 0.7rem;\">";
             // line 7
             echo twig_escape_filter($this->env, twig_round(((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 7) / 9400000000) * 100), 2), "html", null, true);
-            echo "%</p>
+            echo "% von 9.4 Mia
+            CHF</p>
     </div>
 </div>
 ";
         } else {
-            // line 11
+            // line 12
             echo "<div class=\"gsoa-fp-chart-block-track absolute flex h-full items-center\"
     style=\"left: ";
-            // line 12
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "position", [], "any", false, false, false, 12), "html", null, true);
+            // line 13
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "position", [], "any", false, false, false, 13), "html", null, true);
             echo "; width: ";
-            echo twig_escape_filter($this->env, ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", true, true, false, 12)) ? (_twig_default_filter(twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", false, false, false, 12), " 0.5%")) : (" 0.5%")), "html", null, true);
+            echo twig_escape_filter($this->env, ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", true, true, false, 13)) ? (_twig_default_filter(twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", false, false, false, 13), " 0.5%")) : (" 0.5%")), "html", null, true);
             echo "\">
     <div class=\"gsoa-fp-chart-block-wrapper flex h-full items-center sticky top-0 left-0 w-screen justify-center\">
         <div class=\"gsoa-fp-chart-block-outer gsoa-fp-chart-element gsoa-set-width bg-black\"
             style=\"--amount: ";
-            // line 15
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 15), "html", null, true);
+            // line 16
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 16), "html", null, true);
             echo "; --bheight: ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "height", [], "any", false, false, false, 15), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "height", [], "any", false, false, false, 16), "html", null, true);
             echo "\"></div>
-        <div class=\"gsoa-fp-chart-block-content p-2\">
+        <div class=\"gsoa-fp-chart-block-content p-4\">
             <h2 class=\"text-xl font-extrabold mb-0\">";
-            // line 17
-            echo twig_escape_filter($this->env, ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "title", [], "any", true, true, false, 17)) ? (_twig_default_filter(twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "title", [], "any", false, false, false, 17), (twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 17) . " CHF"))) : ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 17) . " CHF"))), "html", null, true);
-            echo "</h2>
-            <p class=\"gsoa-fp-chart-block-description italic text-sm\">";
             // line 18
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "description", [], "any", false, false, false, 18), "html", null, true);
+            echo twig_escape_filter($this->env, twig_number_format_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 18), 0, ".", "'"), "html", null, true);
+            echo " CHF</h2>
+            <p class=\"gsoa-fp-chart-block-description italic text-sm\">";
+            // line 19
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "description", [], "any", false, false, false, 19), "html", null, true);
             echo "</p>
             ";
-            // line 19
-            if ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 19) < 94000)) {
-                echo " <p class=\"mt-0 italic\" style=\"font-size: 0.5rem;\">>0.001%</p>
+            // line 20
+            if ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 20) < 94000)) {
+                echo " <p class=\"mt-0 italic\" style=\"font-size: 0.5rem;\"><0.001% von 9.4 Mia CHF</p>
                 ";
             } else {
-                // line 21
-                echo "                <p class=\"mt-0 italic\" style=\"font-size: 0.5rem;\">";
-                echo twig_escape_filter($this->env, twig_round(((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 21) / 9400000000) * 100), 3), "html", null, true);
-                echo "%</p>
+                // line 22
+                echo "                <p class=\"mt-0 italic\" style=\"font-size: 0.7rem;\">";
+                echo twig_escape_filter($this->env, twig_round(((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "amount", [], "any", false, false, false, 22) / 9400000000) * 100), 3), "html", null, true);
+                echo "% von
+                    9.4 Mia CHF</p>
                 ";
             }
-            // line 23
+            // line 25
             echo "        </div>
     </div>
 </div>
@@ -119,7 +121,7 @@ class __TwigTemplate_d1cc4a420d8262e7363cf49f227392c2eb9e5d6e528eeb96945ea62348a
 
     public function getDebugInfo()
     {
-        return array (  103 => 23,  97 => 21,  92 => 19,  88 => 18,  84 => 17,  77 => 15,  69 => 12,  66 => 11,  59 => 7,  55 => 6,  51 => 5,  42 => 3,  39 => 2,  37 => 1,);
+        return array (  105 => 25,  98 => 22,  93 => 20,  89 => 19,  85 => 18,  78 => 16,  70 => 13,  67 => 12,  59 => 7,  55 => 6,  51 => 5,  42 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -128,9 +130,10 @@ class __TwigTemplate_d1cc4a420d8262e7363cf49f227392c2eb9e5d6e528eeb96945ea62348a
 <div class=\"gsoa-fp-chart-block-outer gsoa-fp-chart-element gsoa-set-width bg-black absolute\"
     style=\"--amount: {{ step.amount}}; --bheight: {{step.height}}; left: {{step.position}}\">
     <div class=\"gsoa-fp-chart-block-content p-4 text-accent w-fit sticky top-0 left-0\">
-        <h2 class=\"text-xl font-extrabold mb-0\">{{step.title|default(step.amount ~ \" CHF\")}}</h2>
+        <h2 class=\"text-xl font-extrabold mb-0\">{{step.amount|number_format(0, '.', \"'\")}} CHF</h2>
         <p class=\"gsoa-fp-chart-block-description italic text-sm mb-0\">{{ step.description }}</p>
-        <p class=\"mt-0 italic\" style=\"font-size: 0.5rem;\">{{ (step.amount / 9400000000 * 100) |round(2)}}%</p>
+        <p class=\"mt-0 italic\" style=\"font-size: 0.7rem;\">{{ (step.amount / 9400000000 * 100) |round(2)}}% von 9.4 Mia
+            CHF</p>
     </div>
 </div>
 {% else %}
@@ -139,12 +142,13 @@ class __TwigTemplate_d1cc4a420d8262e7363cf49f227392c2eb9e5d6e528eeb96945ea62348a
     <div class=\"gsoa-fp-chart-block-wrapper flex h-full items-center sticky top-0 left-0 w-screen justify-center\">
         <div class=\"gsoa-fp-chart-block-outer gsoa-fp-chart-element gsoa-set-width bg-black\"
             style=\"--amount: {{ step.amount}}; --bheight: {{step.height}}\"></div>
-        <div class=\"gsoa-fp-chart-block-content p-2\">
-            <h2 class=\"text-xl font-extrabold mb-0\">{{step.title|default(step.amount ~ \" CHF\")}}</h2>
+        <div class=\"gsoa-fp-chart-block-content p-4\">
+            <h2 class=\"text-xl font-extrabold mb-0\">{{step.amount|number_format(0, '.', \"'\")}} CHF</h2>
             <p class=\"gsoa-fp-chart-block-description italic text-sm\">{{ step.description }}</p>
-            {% if step.amount < 94000 %} <p class=\"mt-0 italic\" style=\"font-size: 0.5rem;\">>0.001%</p>
+            {% if step.amount < 94000 %} <p class=\"mt-0 italic\" style=\"font-size: 0.5rem;\"><0.001% von 9.4 Mia CHF</p>
                 {% else %}
-                <p class=\"mt-0 italic\" style=\"font-size: 0.5rem;\">{{ (step.amount / 9400000000 * 100) |round(3)}}%</p>
+                <p class=\"mt-0 italic\" style=\"font-size: 0.7rem;\">{{ (step.amount / 9400000000 * 100) |round(3)}}% von
+                    9.4 Mia CHF</p>
                 {% endif %}
         </div>
     </div>

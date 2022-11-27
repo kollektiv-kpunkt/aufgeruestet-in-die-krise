@@ -1,8 +1,8 @@
-<div class="gsoa-fp-chart-partial gsoa-fp-chart-upper relative">
+<div class="gsoa-fp-chart-partial gsoa-fp-chart-upper relative flex items-center">
     {% set steps = config.upper %}
     {% for step in steps %}
-    {% if step.type == "space" %}
-    {% include "elements/chart/partials/space.html" with {"step": step} only %}
+    {% if step.type == "text" %}
+    {% include "elements/chart/partials/text.html" with {"step": step} only %}
     {% endif %}
     {% endfor %}
 

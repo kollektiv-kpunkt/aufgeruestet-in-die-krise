@@ -34,7 +34,7 @@ class __TwigTemplate_bbd994aeca7d7fed8cdabb21b4f943f8bf7ab28a8e1c2fe721f44d0829a
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-upper relative\">
+        echo "<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-upper relative flex items-center\">
     ";
         // line 2
         $context["steps"] = twig_get_attribute($this->env, $this->source, ($context["config"] ?? null), "upper", [], "any", false, false, false, 2);
@@ -45,10 +45,10 @@ class __TwigTemplate_bbd994aeca7d7fed8cdabb21b4f943f8bf7ab28a8e1c2fe721f44d0829a
         foreach ($context['_seq'] as $context["_key"] => $context["step"]) {
             // line 4
             echo "    ";
-            if ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 4) == "space")) {
+            if ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 4) == "text")) {
                 // line 5
                 echo "    ";
-                $this->loadTemplate("elements/chart/partials/space.html", "elements/chart/upper.html", 5)->display(twig_to_array(["step" => $context["step"]]));
+                $this->loadTemplate("elements/chart/partials/text.html", "elements/chart/upper.html", 5)->display(twig_to_array(["step" => $context["step"]]));
                 // line 6
                 echo "    ";
             }
@@ -80,11 +80,11 @@ class __TwigTemplate_bbd994aeca7d7fed8cdabb21b4f943f8bf7ab28a8e1c2fe721f44d0829a
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-upper relative\">
+        return new Source("<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-upper relative flex items-center\">
     {% set steps = config.upper %}
     {% for step in steps %}
-    {% if step.type == \"space\" %}
-    {% include \"elements/chart/partials/space.html\" with {\"step\": step} only %}
+    {% if step.type == \"text\" %}
+    {% include \"elements/chart/partials/text.html\" with {\"step\": step} only %}
     {% endif %}
     {% endfor %}
 

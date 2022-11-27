@@ -34,14 +34,14 @@ class __TwigTemplate_670fd75a5a988f3f96d0ed2c06d01c604b8240151229a912dbe03576459
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"gsoa-fp-chart-element gsoa-fp-chart-text-outer flex items-center absolute\"
+        echo "<div class=\"gsoa-fp-chart-text gsoa-fp-chart-text-outer flex items-center absolute\"
     style=\"width: ";
         // line 2
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", false, false, false, 2), "html", null, true);
+        echo twig_escape_filter($this->env, ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", true, true, false, 2)) ? (_twig_default_filter(twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", false, false, false, 2), " 0.5%")) : (" 0.5%")), "html", null, true);
         echo "; left: ";
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "position", [], "any", false, false, false, 2), "html", null, true);
         echo "\">
-    <div class=\"gsoa-fp-chart-inner w-screen sticky top-0 left-0\">
+    <div class=\"gsoa-fp-chart-text-inner w-screen sticky top-0 left-0\">
         ";
         // line 4
         if (($context["color"] ?? null)) {
@@ -84,9 +84,9 @@ class __TwigTemplate_670fd75a5a988f3f96d0ed2c06d01c604b8240151229a912dbe03576459
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"gsoa-fp-chart-element gsoa-fp-chart-text-outer flex items-center absolute\"
-    style=\"width: {{step.width}}; left: {{step.position}}\">
-    <div class=\"gsoa-fp-chart-inner w-screen sticky top-0 left-0\">
+        return new Source("<div class=\"gsoa-fp-chart-text gsoa-fp-chart-text-outer flex items-center absolute\"
+    style=\"width: {{step.width|default(\" 0.5%\")}}; left: {{step.position}}\">
+    <div class=\"gsoa-fp-chart-text-inner w-screen sticky top-0 left-0\">
         {% if color %}
         {% set color = color %}
         {% else %}

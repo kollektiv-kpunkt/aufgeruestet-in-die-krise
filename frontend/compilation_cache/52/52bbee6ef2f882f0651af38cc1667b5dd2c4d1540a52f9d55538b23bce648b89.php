@@ -39,7 +39,10 @@ class __TwigTemplate_70294af717ac2e4da9e593d8eda846400bd5458e39ca3dcce6434946341
         echo "<div class=\"gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent relative gsoa-set-width items-center\"
     style=\"--amount: 9400000000\">
     <div class=\"gsoa-sticker font-extrabold text-xl h-full\">
-        9.4 Mia CHF
+        ";
+        // line 5
+        echo twig_escape_filter($this->env, twig_number_format_filter($this->env, 9400000000, 0, ".", "'"), "html", null, true);
+        echo " CHF
     </div>
     <div class=\"gsoa-fp-chart-scale\"></div>
     ";
@@ -90,7 +93,7 @@ class __TwigTemplate_70294af717ac2e4da9e593d8eda846400bd5458e39ca3dcce6434946341
 
     public function getDebugInfo()
     {
-        return array (  78 => 17,  72 => 16,  69 => 15,  66 => 14,  63 => 13,  60 => 12,  57 => 11,  54 => 10,  51 => 9,  47 => 8,  39 => 2,  37 => 1,);
+        return array (  81 => 17,  75 => 16,  72 => 15,  69 => 14,  66 => 13,  63 => 12,  60 => 11,  57 => 10,  54 => 9,  50 => 8,  44 => 5,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -99,7 +102,7 @@ class __TwigTemplate_70294af717ac2e4da9e593d8eda846400bd5458e39ca3dcce6434946341
 <div class=\"gsoa-fp-chart-partial gsoa-fp-chart-mid bg-accent relative gsoa-set-width items-center\"
     style=\"--amount: 9400000000\">
     <div class=\"gsoa-sticker font-extrabold text-xl h-full\">
-        9.4 Mia CHF
+        {{9400000000|number_format(0, '.', \"'\")}} CHF
     </div>
     <div class=\"gsoa-fp-chart-scale\"></div>
     {% for step in steps %}

@@ -1,6 +1,6 @@
 function setProgress(scrollBody) {
   const scrollLeft = scrollBody.scrollLeft;
-  const introWidth = document.querySelector('.gsoa-fp-intro').offsetWidth;
+  const introWidth = document.querySelector('.gsoa-fp-intro-wrapper').offsetWidth;
   const progress = scrollLeft - introWidth;
   const fullWidht = document.querySelector(".gsoa-fp-chart").offsetWidth;
   const progressPercent = ((progress / fullWidht) * 100);
@@ -32,7 +32,7 @@ document.querySelector('.gsoa-fp-outer').addEventListener('scroll', (e) => setPr
 
 
 function ScrollToPosition(percentage = 100) {
-  let scrollPosition = (document.querySelector(".gsoa-fp-chart").offsetWidth * percentage / 100) + document.querySelector('.gsoa-fp-intro').offsetWidth
+  let scrollPosition = (document.querySelector(".gsoa-fp-chart").offsetWidth * percentage / 100) + document.querySelector('.gsoa-fp-intro-wrapper').offsetWidth
   document.querySelector('.gsoa-fp-outer').scrollTo({
     left: scrollPosition,
     behavior: 'smooth'
@@ -53,6 +53,6 @@ window.addEventListener("load", () => {
   const params = new URLSearchParams(window.location.search);
   if (params.has("p")) {
     ScrollToPosition(params.get("p"));
-    window.history.replaceState({}, document.title, "/");
+    // window.history.replaceState({}, document.title, "/");
   }
 });
