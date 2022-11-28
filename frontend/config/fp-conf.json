@@ -1,5 +1,5 @@
 {
-  "version": 1.0,
+  "version": 1.1,
   "upper": [
     {
       "type": "text",
@@ -149,6 +149,12 @@
       "position": "11%",
       "amount": 180000000,
       "height": 1.5
+    },
+    {
+      "type": "text",
+      "text": "TEST TEST",
+      "position": "11.2%",
+      "color": "white"
     },
     {
       "type": "block",

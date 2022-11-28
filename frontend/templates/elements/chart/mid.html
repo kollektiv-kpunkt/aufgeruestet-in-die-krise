@@ -6,9 +6,7 @@
     </div>
     <div class="gsoa-fp-chart-scale"></div>
     {% for step in steps %}
-    {% if step.type == "space" %}
-    {% include "elements/chart/partials/space.html" with {"step": step} only %}
-    {% elseif step.type == "text" %}
+    {% if step.type == "text" %}
     {% include "elements/chart/partials/text.html" with {"step": step, color: "text-black"} only %}
     {% elseif step.type == "block" %}
     {% include "elements/chart/partials/block.html" with {"step": step} only %}

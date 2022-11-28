@@ -1,6 +1,10 @@
 .gsoa-fp-intro-wrapper {
-    width: 100vw;
     flex-shrink: 0;
+
+    .gsoa-fp-intro-inner {
+        width: 100vw;
+        flex-shrink: 0;
+    }
 
     .gsoa-fp-intro {
         width: 100vw;
@@ -9,7 +13,7 @@
     }
 }
 
-.gsoa-fp-chart {
+.gsoa-fp-inner {
     --ppa: 0.000017vw;
 
     @media (max-width: 780px) {
@@ -20,65 +24,67 @@
         width: calc(var(--amount) * var(--ppa) * var(--bheight, 1));
     }
 
-    .gsoa-fp-chart-upper,
-    .gsoa-fp-chart-lower {
-        height: 25%;
+    .gsoa-fp-amount-block-outer {
+        height: calc(100% / var(--bheight, 1)) !important;
     }
 
-    .gsoa-fp-chart-mid {
-        height: 50%;
-        background-image: url("/img/baro.svg");
-        background-repeat: repeat-x;
-        background-size: calc(1000000 * var(--ppa)) auto;
-        background-position: 0 bottom;
+    .gsoa-fp-chart {
 
-        .gsoa-sticker {
-            position: sticky;
-            top: 0;
-            left: 0;
-            width: fit-content;
-            padding: 1rem;
+        .gsoa-fp-chart-upper,
+        .gsoa-fp-chart-lower {
+            height: 25%;
         }
 
-        .gsoa-fp-chart-scale {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("/img/scale.svg");
+        .gsoa-fp-chart-mid {
+            height: 50%;
+            background-image: url("/img/baro.svg");
+            background-repeat: repeat-x;
             background-size: calc(1000000 * var(--ppa)) auto;
-            background-repeat: no-repeat;
-            background-position: calc(71000000 * var(--ppa)) bottom;
+            background-position: 0 bottom;
+
+            .gsoa-sticker {
+                position: sticky;
+                top: 0;
+                left: 0;
+                width: fit-content;
+                padding: 1rem;
+            }
+
+            .gsoa-fp-chart-scale {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url("/img/scale.svg");
+                background-size: calc(1000000 * var(--ppa)) auto;
+                background-repeat: no-repeat;
+                background-position: calc(71000000 * var(--ppa)) bottom;
+            }
+
+            .gsoa-fp-chart-block-description {
+                max-width: 60vw;
+            }
+
+            .gsoa-fp-chart-text-inner p {
+                max-width: 75vw;
+                margin: 0 auto;
+            }
         }
 
-        .gsoa-fp-chart-block-outer {
-            height: calc(100% / var(--bheight, 1));
-
+        .gsoa-fp-chart-lower {
+            .gsoa-fp-progressbar {
+                outline-width: 6px;
+                outline-offset: 6px;
+            }
         }
 
-        .gsoa-fp-chart-block-description {
-            max-width: 60vw;
+        .gsoa-fp-chart-partial {
+            display: flex;
         }
 
-        .gsoa-fp-chart-text-inner p {
-            max-width: 75vw;
-            margin: 0 auto;
+        .gsoa-fp-chart-element {
+            height: 100%;
         }
-    }
-
-    .gsoa-fp-chart-lower {
-        .gsoa-fp-progressbar {
-            outline-width: 6px;
-            outline-offset: 6px;
-        }
-    }
-
-    .gsoa-fp-chart-partial {
-        display: flex;
-    }
-
-    .gsoa-fp-chart-element {
-        height: 100%;
     }
 }
