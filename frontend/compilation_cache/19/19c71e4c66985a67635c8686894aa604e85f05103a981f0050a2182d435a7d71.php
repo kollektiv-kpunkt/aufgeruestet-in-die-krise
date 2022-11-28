@@ -34,10 +34,11 @@ class __TwigTemplate_670fd75a5a988f3f96d0ed2c06d01c604b8240151229a912dbe03576459
     {
         $macros = $this->macros;
         // line 1
-        echo "<div class=\"gsoa-fp-chart-text gsoa-fp-chart-text-outer flex items-center absolute\"
-    style=\"width: ";
+        echo "<div class=\"gsoa-fp-chart-text gsoa-fp-chart-text-outer flex items-center absolute\" style=\"width: ";
+        echo twig_escape_filter($this->env, ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", true, true, false, 1)) ? (_twig_default_filter(twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", false, false, false, 1), "
+    0.5%")) : ("
+    0.5%")), "html", null, true);
         // line 2
-        echo twig_escape_filter($this->env, ((twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", true, true, false, 2)) ? (_twig_default_filter(twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "width", [], "any", false, false, false, 2), " 0.5%")) : (" 0.5%")), "html", null, true);
         echo "; left: ";
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["step"] ?? null), "position", [], "any", false, false, false, 2), "html", null, true);
         echo "\">
@@ -79,13 +80,13 @@ class __TwigTemplate_670fd75a5a988f3f96d0ed2c06d01c604b8240151229a912dbe03576459
 
     public function getDebugInfo()
     {
-        return array (  61 => 9,  58 => 8,  55 => 7,  52 => 6,  49 => 5,  47 => 4,  40 => 2,  37 => 1,);
+        return array (  62 => 9,  59 => 8,  56 => 7,  53 => 6,  50 => 5,  48 => 4,  42 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"gsoa-fp-chart-text gsoa-fp-chart-text-outer flex items-center absolute\"
-    style=\"width: {{step.width|default(\" 0.5%\")}}; left: {{step.position}}\">
+        return new Source("<div class=\"gsoa-fp-chart-text gsoa-fp-chart-text-outer flex items-center absolute\" style=\"width: {{step.width|default(\"
+    0.5%\")}}; left: {{step.position}}\">
     <div class=\"gsoa-fp-chart-text-inner w-screen sticky top-0 left-0\">
         {% if color %}
         {% set color = color %}

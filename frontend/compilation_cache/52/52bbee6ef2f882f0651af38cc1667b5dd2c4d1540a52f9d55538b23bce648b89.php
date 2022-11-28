@@ -52,32 +52,26 @@ class __TwigTemplate_70294af717ac2e4da9e593d8eda846400bd5458e39ca3dcce6434946341
         foreach ($context['_seq'] as $context["_key"] => $context["step"]) {
             // line 9
             echo "    ";
-            if ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 9) == "space")) {
+            if ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 9) == "text")) {
                 // line 10
                 echo "    ";
-                $this->loadTemplate("elements/chart/partials/space.html", "elements/chart/mid.html", 10)->display(twig_to_array(["step" => $context["step"]]));
+                $this->loadTemplate("elements/chart/partials/text.html", "elements/chart/mid.html", 10)->display(twig_to_array(["step" => $context["step"], "color" => "text-black"]));
                 // line 11
                 echo "    ";
-            } elseif ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 11) == "text")) {
+            } elseif ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 11) == "block")) {
                 // line 12
                 echo "    ";
-                $this->loadTemplate("elements/chart/partials/text.html", "elements/chart/mid.html", 12)->display(twig_to_array(["step" => $context["step"], "color" => "text-black"]));
+                $this->loadTemplate("elements/chart/partials/block.html", "elements/chart/mid.html", 12)->display(twig_to_array(["step" => $context["step"]]));
                 // line 13
                 echo "    ";
-            } elseif ((twig_get_attribute($this->env, $this->source, $context["step"], "type", [], "any", false, false, false, 13) == "block")) {
-                // line 14
-                echo "    ";
-                $this->loadTemplate("elements/chart/partials/block.html", "elements/chart/mid.html", 14)->display(twig_to_array(["step" => $context["step"]]));
-                // line 15
-                echo "    ";
             }
-            // line 16
+            // line 14
             echo "    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['step'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 17
+        // line 15
         echo "</div>";
     }
 
@@ -93,7 +87,7 @@ class __TwigTemplate_70294af717ac2e4da9e593d8eda846400bd5458e39ca3dcce6434946341
 
     public function getDebugInfo()
     {
-        return array (  81 => 17,  75 => 16,  72 => 15,  69 => 14,  66 => 13,  63 => 12,  60 => 11,  57 => 10,  54 => 9,  50 => 8,  44 => 5,  39 => 2,  37 => 1,);
+        return array (  75 => 15,  69 => 14,  66 => 13,  63 => 12,  60 => 11,  57 => 10,  54 => 9,  50 => 8,  44 => 5,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -106,9 +100,7 @@ class __TwigTemplate_70294af717ac2e4da9e593d8eda846400bd5458e39ca3dcce6434946341
     </div>
     <div class=\"gsoa-fp-chart-scale\"></div>
     {% for step in steps %}
-    {% if step.type == \"space\" %}
-    {% include \"elements/chart/partials/space.html\" with {\"step\": step} only %}
-    {% elseif step.type == \"text\" %}
+    {% if step.type == \"text\" %}
     {% include \"elements/chart/partials/text.html\" with {\"step\": step, color: \"text-black\"} only %}
     {% elseif step.type == \"block\" %}
     {% include \"elements/chart/partials/block.html\" with {\"step\": step} only %}

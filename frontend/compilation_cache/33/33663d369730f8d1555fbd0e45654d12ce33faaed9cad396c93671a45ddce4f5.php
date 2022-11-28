@@ -39,38 +39,26 @@ class __TwigTemplate_9e88f5f7d3894673b14fe5a0fb1f0ca3dcc225190a15e9b5916364181e6
 
 <div class=\"gsoa-fp-outer h-screen w-screen overflow-x-auto bg-background\">
     <div class=\"gsoa-fp-inner flex h-full\">
-        <div class=\"gsoa-fp-intro-wrapper gsoa-fp-screen\">
-            <div class=\" gsoa-fp-intro h-full p-8 text-white\">
-                <h1 class=\"text-5xl font-extrabold mb-4\">Aufgerüstet in die Krise.</h1>
-                <div class=\"gsoa-fp-intro-content mb-4\">
-                    <p>In pretium pellentesque sed adipiscing sit pharetra faucibus vitae. Ipsum ut volutpat vel
-                        pellentesque
-                        congue sagittis. Morbi felis fames hac non mattis sit purus duis sagittis. Risus in eu justo nisi
-                        tempor. Commodo sit
-                        aliquam in aliquam
-                        purus.</p>
-                    <p>Ut morbi tempor tempus arcu quam. <b>Id tortor iaculis facilisis sed arcu a. Quis vel purus consequat
-                            morbi viverra amet</b>
-                        mauris scelerisque. Dignissim nunc ac diam in. Neque neque orci tellus ultricies feugiat malesuada
-                        quam
-                        nisi. Sed mi
-                        augue vitae nisi vitae ac tellus molestie.</p>
-                </div>
-                <a class=\"gsoa-fp-intro-button text-accent font-extrabold cursor-pointer\">Scroll nach rechts <i
-                        data-feather=\"arrow-right\" class=\"inline w-6 h-6\"></i></a>
-            </div>
-        </div>
+        <div class=\"gsoa-fp-intro-wrapper gsoa-fp-screen flex\">
+            ";
+        // line 6
+        $this->loadTemplate("elements/intro.html", "homepage.html", 6)->display($context);
+        // line 7
+        echo "            ";
+        $this->loadTemplate("elements/scale.html", "homepage.html", 7)->display(twig_to_array(["scale" => ($context["scale"] ?? null)]));
+        // line 8
+        echo "        </div>
         <div class=\"gsoa-fp-screen gsoa-fp-chart h-full flex flex-col\">
             ";
-        // line 27
-        $this->loadTemplate("elements/chart/upper.html", "homepage.html", 27)->display($context);
-        // line 28
+        // line 10
+        $this->loadTemplate("elements/chart/upper.html", "homepage.html", 10)->display($context);
+        // line 11
         echo "            ";
-        $this->loadTemplate("elements/chart/mid.html", "homepage.html", 28)->display($context);
-        // line 29
+        $this->loadTemplate("elements/chart/mid.html", "homepage.html", 11)->display($context);
+        // line 12
         echo "            ";
-        $this->loadTemplate("elements/chart/lower.html", "homepage.html", 29)->display($context);
-        // line 30
+        $this->loadTemplate("elements/chart/lower.html", "homepage.html", 12)->display($context);
+        // line 13
         echo "        </div>
         <div class=\"gsoa-fp-screen gsoa-fp-outro flex-shrink-0 h-full w-screen p-8 text-white\" id=\"outro\">
             <h1 class=\"text-5xl font-extrabold mb-4\">Aufgerüstet in die Krise.</h1>
@@ -95,7 +83,7 @@ class __TwigTemplate_9e88f5f7d3894673b14fe5a0fb1f0ca3dcc225190a15e9b5916364181e6
 </div>
 
 ";
-        // line 53
+        // line 36
         echo twig_include($this->env, $context, "elements/footer.html");
     }
 
@@ -111,7 +99,7 @@ class __TwigTemplate_9e88f5f7d3894673b14fe5a0fb1f0ca3dcc225190a15e9b5916364181e6
 
     public function getDebugInfo()
     {
-        return array (  99 => 53,  74 => 30,  71 => 29,  68 => 28,  66 => 27,  37 => 1,);
+        return array (  87 => 36,  62 => 13,  59 => 12,  56 => 11,  54 => 10,  50 => 8,  47 => 7,  45 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -120,26 +108,9 @@ class __TwigTemplate_9e88f5f7d3894673b14fe5a0fb1f0ca3dcc225190a15e9b5916364181e6
 
 <div class=\"gsoa-fp-outer h-screen w-screen overflow-x-auto bg-background\">
     <div class=\"gsoa-fp-inner flex h-full\">
-        <div class=\"gsoa-fp-intro-wrapper gsoa-fp-screen\">
-            <div class=\" gsoa-fp-intro h-full p-8 text-white\">
-                <h1 class=\"text-5xl font-extrabold mb-4\">Aufgerüstet in die Krise.</h1>
-                <div class=\"gsoa-fp-intro-content mb-4\">
-                    <p>In pretium pellentesque sed adipiscing sit pharetra faucibus vitae. Ipsum ut volutpat vel
-                        pellentesque
-                        congue sagittis. Morbi felis fames hac non mattis sit purus duis sagittis. Risus in eu justo nisi
-                        tempor. Commodo sit
-                        aliquam in aliquam
-                        purus.</p>
-                    <p>Ut morbi tempor tempus arcu quam. <b>Id tortor iaculis facilisis sed arcu a. Quis vel purus consequat
-                            morbi viverra amet</b>
-                        mauris scelerisque. Dignissim nunc ac diam in. Neque neque orci tellus ultricies feugiat malesuada
-                        quam
-                        nisi. Sed mi
-                        augue vitae nisi vitae ac tellus molestie.</p>
-                </div>
-                <a class=\"gsoa-fp-intro-button text-accent font-extrabold cursor-pointer\">Scroll nach rechts <i
-                        data-feather=\"arrow-right\" class=\"inline w-6 h-6\"></i></a>
-            </div>
+        <div class=\"gsoa-fp-intro-wrapper gsoa-fp-screen flex\">
+            {% include (\"elements/intro.html\") %}
+            {% include (\"elements/scale.html\") with {\"scale\" : scale} only %}
         </div>
         <div class=\"gsoa-fp-screen gsoa-fp-chart h-full flex flex-col\">
             {% include (\"elements/chart/upper.html\") %}
