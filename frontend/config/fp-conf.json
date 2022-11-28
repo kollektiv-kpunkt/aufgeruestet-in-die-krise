@@ -1,5 +1,5 @@
 {
-  "version": 1.0,
+  "version": 1.1,
   "upper": [
     {
       "type": "text",
@@ -16,7 +16,7 @@
   "mid": [
     {
       "type": "text",
-      "text": "Die Fläche dieses Balkens stellt die 9.4 Milliarden Franken dar, welcher der Bund ausgeben will.",
+      "text": "Die Fläche dieses Balkens stellt die 9.4 Milliarden Franken dar, welcher der Bund ausgeben will......",
       "position": "0.1%"
     },
     {
