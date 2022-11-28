@@ -23,6 +23,5 @@ Router::get('/', function() use ($twig) {
         "OG" => "/img/og.png"
     ];
     $config = json_decode(file_get_contents(__DIR__ . "/../config/fp-conf.json"), true);
-    $scale = json_decode(file_get_contents(__DIR__ . "/../config/scale-conf.json"), true);
-    return $twig->render("homepage.html" , ["page" => $page, "environment" => $_ENV, "config" => $config, "scale" => $scale]);
+    return $twig->render("homepage.html" , ["page" => $page, "environment" => $_ENV, "config" => $config]);
 });

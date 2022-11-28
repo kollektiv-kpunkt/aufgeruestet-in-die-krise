@@ -46,7 +46,11 @@ document.querySelector(".gsoa-fp-chart-jumper").addEventListener("click", (e) =>
 
 document.querySelector(".gsoa-fp-intro-button").addEventListener("click", (e) => {
   e.preventDefault();
-  ScrollToPosition(0);
+  let scrollPosition = document.querySelector('.gsoa-fp-intro-inner').offsetWidth
+  document.querySelector('.gsoa-fp-outer').scrollTo({
+    left: scrollPosition,
+    behavior: 'smooth'
+  });
 });
 
 window.addEventListener("load", () => {

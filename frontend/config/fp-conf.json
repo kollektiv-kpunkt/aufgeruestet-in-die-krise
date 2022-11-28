@@ -1,19 +1,73 @@
 {
   "version": 1.1,
-  "upper": [
+  "static": {
+    "intro": {
+      "title": "Aufgerüstet in die Krise.",
+      "text": "Willst du sehen, wie viel uns die massive Erhöhung des Armeebudgets kosten wird?"
+    },
+    "outro": {
+      "title": "Aufgerüstet in die Krise.",
+      "text": "Willst du sehen, wie viel uns die massive Erhöhung des Armeebudgets kosten wird?"
+    }
+  },
+  "scale": {
+    "width": "140000000",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Das Wichtigste zuerst: Lass uns kurz den Massstab defnieren.",
+        "color": "white",
+        "position": "0%",
+        "width": "20%"
+      },
+      {
+        "type": "block",
+        "description": "Die Fläche dieses Rechtecks stellt 1'000 CHF dar.",
+        "position": "20%",
+        "color": "accent",
+        "width": "20%",
+        "amount": 1000,
+        "height": 60
+      },
+      {
+        "type": "block",
+        "description": "Das hier sind 10'000 CHF.",
+        "position": "40%",
+        "color": "accent",
+        "amount": 10000,
+        "width": "20%",
+        "height": 25
+      },
+      {
+        "type": "block",
+        "description": "Diese Fläche sind 100'000 CHF.",
+        "position": "60%",
+        "color": "accent",
+        "amount": 100000,
+        "width": "20%",
+        "height": 7
+      },
+      {
+        "type": "text",
+        "text": "So, los gehts! Hier kommen 9.4 Milliarden Franken:",
+        "color": "white",
+        "position": "80%",
+        "width": "20%"
+      }
+    ]
+  },
+  "chart_upper": [
     {
-      "type": "text",
       "text": "Die Beträge hier scheinen noch recht klein. Warte aber nur mal ab...",
       "position": "3%",
       "width": "2.5%"
     },
     {
-      "type": "text",
       "text": "Nicht so viel, hä?",
       "position": "6%"
     }
   ],
-  "mid": [
+  "chart_mid": [
     {
       "type": "text",
       "text": "Die Fläche dieses Balkens stellt die 9.4 Milliarden Franken dar, welcher der Bund ausgeben will.",
