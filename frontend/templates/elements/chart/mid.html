@@ -10,6 +10,8 @@
     {% include "elements/chart/partials/text.html" with {"step": step, color: "text-black"} only %}
     {% elseif step.type == "block" %}
     {% include "elements/chart/partials/block.html" with {"step": step} only %}
+    {% elseif step.type == "img" %}
+    {% include "elements/chart/partials/img.html" with {"step": step} only %}
     {% endif %}
     {% endfor %}
 </div>
