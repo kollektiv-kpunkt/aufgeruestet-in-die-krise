@@ -49,13 +49,8 @@
   },
   "chart_upper": [
     {
-      "text": "Die Beträge hier scheinen noch recht klein. Warte aber nur mal ab...",
-      "position": "3%",
-      "width": "2.5%"
-    },
-    {
-      "text": "Nicht so viel, hä?",
-      "position": "6%"
+      "text": "",
+      "position": "3%"
     }
   ],
   "chart_mid": [
@@ -88,7 +83,7 @@
     },
     {
       "type": "block",
-      "description": "Stipendium für ein*en Schweizer Student*in",
+      "description": "Stipendium für eine Schweizer Student*in",
       "position": "3.5%",
       "amount": 7496,
       "height": 18
@@ -129,102 +124,103 @@
     {
       "type": "text",
       "text": "Schauen wir doch mal was du als Durchschnittsschweizer*in im Vergleich so verdienst.",
-      "position": "5.5%"
+      "position": "9.5%"
     },
     {
       "type": "block",
       "description": "Jährliches Durchschnittseinkommen in der Schweiz",
-      "position": "6%",
+      "position": "10%",
       "amount": 78000,
       "height": 5.5
     },
     {
       "type": "block",
       "description": "Kosten für einen ganzjährigen Aufenthalt im Altersheim",
-      "position": "6.5%",
+      "position": "11%",
       "amount": 116435,
       "height": 4.7
     },
     {
       "type": "block",
       "description": "Durchschnittliche Haushaltskosten für eine Familie",
-      "position": "7%",
+      "position": "12%",
       "amount": 130224,
       "height": 4.3
     },
     {
       "type": "text",
-      "text": "Okay, fangen wir jetzt mal richtig an.",
-      "position": "7.5%"
+      "text": "Du bist fast am Ende.",
+      "position": "13%",
+      "width": "1%"
+    },
+    {
+      "type": "text",
+      "text": "Ups, sorry, noch nicht mal in der Hälfte.",
+      "position": "15%",
+      "width": "1%"
     },
     {
       "type": "block",
       "description": "Durch den Bund getragene Impfkosten",
-      "position": "8%",
+      "position": "16%",
       "amount": 6000000,
       "height": 3
     },
     {
       "type": "block",
       "description": "Spendenerträge für das Jahr 2021 der Stiftung Pfarrer Sieber",
-      "position": "8.3%",
+      "position": "20%",
       "amount": 11437135,
       "height": 2
     },
     {
       "type": "text",
       "text": "9.4 Milliarden. Krass.",
-      "position": "8.8%"
+      "position": "20%"
     },
     {
       "type": "block",
       "description": "Jährlicher Gesamtbetrag des Kantons Zürich für die Förderung klimaneutraler Heizungen",
-      "position": "9.5%",
+      "position": "20%",
       "amount": 15000000,
       "height": 2
     },
     {
       "type": "block",
       "description": "Jährlicher Beitrag des Bundes an UNICEF",
-      "position": "10%",
+      "position": "20%",
       "amount": 20000000,
       "height": 2
     },
     {
       "type": "block",
       "description": "Beitrag des Bundes an sozialen Wohnungsbau",
-      "position": "11%",
+      "position": "21%",
       "amount": 43000000,
       "height": 2
     },
     {
       "type": "text",
       "text": "Inzwischen haben wir viele Millionen zusammen, oder? Doch schau mal: Wir sind erst bei ca. 10%.",
-      "position": "10.5%",
+      "position": "20.5%",
       "width": "0.1%"
     },
     {
       "type": "text",
       "text": "Fahren wir mal noch etwas grössere Geschütze auf. (Höhö, GSoA, Geschütze).",
-      "position": "10.6%"
+      "position": "20.6%"
     },
     {
       "type": "block",
       "description": "Sparmassnahmen Deutschschweizer Kantone von 2013 bis 2015 in der Bildung",
-      "position": "12%",
+      "position": "22%",
       "amount": 180000000,
       "height": 1.5
     },
     {
-      "type": "text",
-      "text": "TEST TEST",
-      "position": "11.2%",
-      "color": "white"
-    },
-    {
       "type": "block",
       "description": "Humanitäre Hilfe während der Corona-Pandemie",
-      "position": "15%",
+      "position": "25%",
       "amount": 188000000,
       "height": 1.5
     },
