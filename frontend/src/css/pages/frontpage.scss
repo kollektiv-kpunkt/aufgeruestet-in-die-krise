@@ -24,6 +24,11 @@
         width: calc(var(--amount) * var(--ppa) * var(--bheight, 1));
     }
 
+    .gsoa-fp-chart-block-description,
+    .gsoa-fp-chart-text-inner {
+        max-width: 60vw;
+    }
+
     .gsoa-fp-amount-block-outer {
         height: calc(100% / var(--bheight, 1)) !important;
     }
@@ -60,10 +65,6 @@
                 background-size: calc(1000000 * var(--ppa)) auto;
                 background-repeat: no-repeat;
                 background-position: calc(71000000 * var(--ppa)) bottom;
-            }
-
-            .gsoa-fp-chart-block-description {
-                max-width: 60vw;
             }
 
             .gsoa-fp-chart-text-inner p {

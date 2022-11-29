@@ -18,14 +18,14 @@
         "text": "Das Wichtigste zuerst: Lass uns kurz den Massstab definieren.",
         "color": "white",
         "position": "0%",
-        "width": "0%"
+        "width": "25%"
       },
       {
         "type": "block",
         "description": "Die Fläche dieses Rechtecks stellt 1'000 CHF dar.",
-        "position": "30%",
+        "position": "25%",
         "color": "accent",
-        "width": "0%",
+        "width": "25%",
         "amount": 1000,
         "height": 60
       },
@@ -35,15 +35,15 @@
         "position": "50%",
         "color": "accent",
         "amount": 100000,
-        "width": "20%",
+        "width": "25%",
         "height": 7
       },
       {
         "type": "text",
         "text": "Wie sehen dann 9.4 Milliarden Franken aus? Finde es mit uns heraus!",
         "color": "white",
-        "position": "70%",
-        "width": "20%"
+        "position": "75%",
+        "width": "25%"
       }
     ]
   },

@@ -20,10 +20,10 @@ function setProgress(scrollBody) {
   const jumper = document.querySelector(".gsoa-fp-chart-jumper");
   if (progressPercent > 5) {
     jumper.classList.remove("opacity-0");
-    jumper.classList.add("opacity-50");
+    jumper.classList.add("opacity-30");
   } else {
     jumper.classList.add("opacity-0");
-    jumper.classList.remove("opacity-50");
+    jumper.classList.remove("opacity-30");
   }
 
 }
