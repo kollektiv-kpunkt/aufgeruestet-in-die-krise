@@ -222,7 +222,9 @@
       "type": "text",
       "text": "9.4 Milliarden. Krass.",
       "position": "27.5%",
-      "color": "white"
+      "color": "white",
+      "over_block": true,
+      "height": 2
     },
     {
       "type": "text",

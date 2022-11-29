@@ -69,11 +69,17 @@
                 margin: 0 auto;
             }
 
-            .gsoa-fp-amount-block-outer {
+            .gsoa-fp-amount-block-baro {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 10;
                 background-image: url("/img/baro-neg.svg");
                 background-blend-mode: exclusion;
                 background-repeat: repeat-x;
-                background-size: calc(250000 * var(--ppa)) auto;
+                background-size: calc(500000 * var(--ppa)) auto;
                 background-position: 0 bottom;
             }
         }
@@ -102,4 +108,41 @@
 .gsoa-fp-outro {
     width: 100vw;
     max-width: calc(29rem + 4rem);
+
+    .gsoa-fp-some-share-button {
+        width: calc(50% - 0.25rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.5rem;
+        padding: 0.5rem;
+        background-color: var(--accent-color);
+        font-size: 0.75rem;
+        line-height: 0.8;
+
+        @media (max-width: 780px) {
+            width: 100%;
+        }
+
+        i {
+            width: 0.75rem;
+            height: 0.75rem;
+        }
+
+        &[data-share="whatsapp"] {
+            --accent-color: #25D366;
+        }
+
+        &[data-share="facebook"] {
+            --accent-color: #4267B2;
+        }
+
+        &[data-share="twitter"] {
+            --accent-color: #1DA1F2;
+        }
+
+        &[data-share="telegram"] {
+            --accent-color: #0088CC;
+        }
+    }
 }
