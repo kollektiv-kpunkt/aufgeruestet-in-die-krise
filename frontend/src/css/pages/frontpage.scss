@@ -1,15 +1,12 @@
 .gsoa-fp-intro-wrapper {
-    flex-shrink: 0;
 
     .gsoa-fp-intro-inner {
         width: 100vw;
-        flex-shrink: 0;
     }
 
     .gsoa-fp-intro {
         width: 100vw;
         max-width: calc(29rem + 4rem);
-        flex-shrink: 0;
     }
 }
 
@@ -71,6 +68,14 @@
                 max-width: 75vw;
                 margin: 0 auto;
             }
+
+            .gsoa-fp-amount-block-outer {
+                background-image: url("/img/baro-neg.svg");
+                background-blend-mode: exclusion;
+                background-repeat: repeat-x;
+                background-size: calc(250000 * var(--ppa)) auto;
+                background-position: 0 bottom;
+            }
         }
 
         .gsoa-fp-chart-lower {
@@ -88,4 +93,13 @@
             height: 100%;
         }
     }
+}
+
+.gsoa-fp-outro-inner {
+    width: 100vw;
+}
+
+.gsoa-fp-outro {
+    width: 100vw;
+    max-width: calc(29rem + 4rem);
 }
