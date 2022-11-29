@@ -129,19 +129,19 @@
             height: 0.75rem;
         }
 
-        &[data-share="whatsapp"] {
+        &[data-sharetype="whatsapp"] {
             --accent-color: #25D366;
         }
 
-        &[data-share="facebook"] {
+        &[data-sharetype="facebook"] {
             --accent-color: #4267B2;
         }
 
-        &[data-share="twitter"] {
+        &[data-sharetype="twitter"] {
             --accent-color: #1DA1F2;
         }
 
-        &[data-share="telegram"] {
+        &[data-sharetype="telegram"] {
             --accent-color: #0088CC;
         }
     }

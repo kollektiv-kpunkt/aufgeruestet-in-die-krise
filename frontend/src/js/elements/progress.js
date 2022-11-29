@@ -12,6 +12,7 @@ function setProgress(scrollBody) {
   const progressNumber = progressBar.querySelector("p");
 
   progressNumber.innerText = `${progressPercent.toFixed(2)}%`;
+  progressNumber.setAttribute("data-progress", progressPercent);
   progressBarInner.style.width = `${progressPercent.toFixed(2)}%`;
 
   const counterNumber = document.querySelector(".gsoa-fp-chart-counter-number");

@@ -19,6 +19,7 @@ insert_final_newline = false
 trim_trailing_whitespace = true
 indent_style = space
 indent_size = 4
+visual_wrap = false
 
 [*.{js,json}]
 indent_style = space

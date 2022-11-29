@@ -38,6 +38,7 @@
   "homepage": "https://github.com/kollektiv-kpunkt/aufgeruestet-in-die-krise#readme",
   "dependencies": {
     "@kollektiv-kpunkt/simpleicons-replacer": "^1.0.4",
-    "feather-icons": "^4.29.0"
+    "feather-icons": "^4.29.0",
+    "punycode": "^2.1.1"
   }
 }
