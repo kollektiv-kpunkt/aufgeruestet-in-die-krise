@@ -20,6 +20,7 @@ use Pecee\SimpleRouter\SimpleRouter as Router;
 Router::get('/', function() use ($twig) {
     $page = [
         "title" => "Die Zahlen",
+        "description" => "Die bürgerliche Parlamentsmehrheit will bis 2030 das Armeebudget von 5,2 auf 9,4 Milliarden erhöhen. Schau dir mal an, was das bedeuten würde.",
         "OG" => "/img/og.png"
     ];
     $config = json_decode(file_get_contents(__DIR__ . "/../config/fp-conf.json"), true);
