@@ -21,6 +21,13 @@ if (document.querySelector(".gsoa-fp-some-share-button")) {
           window.open(`https://t.me/share/url?url=${shareUrl}&text=${shareText}`);
           break;
       }
+      _paq.push(['trackEvent', 'Share', 'Click', shareType]);
     });
+  });
+}
+
+if (document.querySelector(".gsoa-petition-button")) {
+  document.querySelector(".gsoa-petition-button").addEventListener("click", (e) => {
+    _paq.push(['trackEvent', 'Petition', 'Click']);
   });
 }
