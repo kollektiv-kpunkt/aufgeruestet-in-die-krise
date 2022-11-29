@@ -160,74 +160,138 @@
       "width": "1%"
     },
     {
+      "type": "text",
+      "text": "Dass das Parlament mit diesem Entscheid «überbordet» sind nicht unsere Worte, sondern die von Ueli Maurer, SVP-Finanzminister und Bundesrat.",
+      "position": "17%"
+    },
+    {
+      "type": "text",
+      "text": "Für ihn ist angesichts des massiven Finanzlochs der kommenden Jahre klar: The party is over.",
+      "position": "18%"
+    },
+    {
+      "type": "text",
+      "text": "«Es ist wie bei einem Rausch», so Ueli. «Wir haben in den letzten fünfzehn Jahren zu viel konsumiert, jetzt kommt der Kater.»",
+      "position": "19%"
+    },
+    {
+      "type": "text",
+      "text": "Was könnte man nach bürgerlicher Logik denn so streichen, um das Loch zu stopfen?",
+      "position": "20%"
+    },
+    {
+      "type": "text",
+      "text": "Bei der Gesundheit?",
+      "position": "21%"
+    },
+    {
+      "type": "block",
+      "description": "Staatliche Beiträge für mittelgrosses Spital",
+      "position": "22%",
+      "amount": 2000000,
+      "height": 3
+    },
+    {
       "type": "block",
       "description": "Durch den Bund getragene Impfkosten",
-      "position": "16%",
+      "position": "23%",
       "amount": 6000000,
       "height": 3
     },
     {
       "type": "block",
+      "description": "Beiträge Kantone an das Unispital Zürich 2021",
+      "position": "24%",
+      "amount": 19500000,
+      "height": 3
+    },
+    {
+      "type": "text",
+      "text": "Da müsste man doch ziemlich viele Spitäler einstampfen. Andere Ideen?",
+      "position": "25%",
+      "width": "1%"
+    },
+    {
+      "type": "block",
+      "description": "Sparmassnahmen Deutschschweizer Kantone von 2013 bis 2015 in der Bildung",
+      "position": "27%",
+      "amount": 180000000,
+      "height": 2
+    },
+    {
+      "type": "text",
+      "text": "9.4 Milliarden. Krass.",
+      "position": "27.5%",
+      "color": "white"
+    },
+    {
+      "type": "text",
+      "text": "Wir zitieren Ueli gerne nochmals: «Ich habe das Gefühl, dass man sich beim Verteidigungsdepartement überschätzt, wenn man denkt, dass man all das Geld ausgeben kann.»",
+      "position": "40%",
+      "width": "2%"
+    },
+    {
+      "type": "block",
       "description": "Spendenerträge für das Jahr 2021 der Stiftung Pfarrer Sieber",
-      "position": "20%",
+      "position": "40%",
       "amount": 11437135,
       "height": 2
     },
     {
       "type": "text",
       "text": "9.4 Milliarden. Krass.",
-      "position": "20%"
+      "position": "40%"
     },
     {
       "type": "block",
       "description": "Jährlicher Gesamtbetrag des Kantons Zürich für die Förderung klimaneutraler Heizungen",
-      "position": "20%",
+      "position": "40%",
       "amount": 15000000,
       "height": 2
     },
     {
       "type": "block",
       "description": "Jährlicher Beitrag des Bundes an UNICEF",
-      "position": "20%",
+      "position": "40%",
       "amount": 20000000,
       "height": 2
     },
     {
       "type": "block",
       "description": "Beitrag des Bundes an sozialen Wohnungsbau",
-      "position": "21%",
+      "position": "41%",
       "amount": 43000000,
       "height": 2
     },
     {
       "type": "text",
       "text": "Inzwischen haben wir viele Millionen zusammen, oder? Doch schau mal: Wir sind erst bei ca. 10%.",
-      "position": "20.5%",
+      "position": "40.5%",
       "width": "0.1%"
     },
     {
       "type": "text",
       "text": "Fahren wir mal noch etwas grössere Geschütze auf. (Höhö, GSoA, Geschütze).",
-      "position": "20.6%"
+      "position": "40.6%"
     },
     {
       "type": "block",
       "description": "Sparmassnahmen Deutschschweizer Kantone von 2013 bis 2015 in der Bildung",
-      "position": "22%",
+      "position": "42%",
       "amount": 180000000,
       "height": 1.5
     },
     {
       "type": "block",
       "description": "Humanitäre Hilfe während der Corona-Pandemie",
-      "position": "25%",
+      "position": "45%",
       "amount": 188000000,
       "height": 1.5
     },
     {
       "type": "block",
       "description": "Alle Stipendien, die im Jahr 2021 an insgesamt 46'241 Bezüger*innen verliehen wurde",
-      "position": "19%",
+      "position": "49%",
       "amount": 351519825,
       "height": 1.5
     }
