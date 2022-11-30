@@ -345,7 +345,7 @@
     {
       "type": "text",
       "text": "Das hier sind die budgetierten 155 Millionen.",
-      "position": "33.5%",
+      "position": "33.4%",
       "color": "white",
       "over_block": true,
       "height": 2,
@@ -354,7 +354,7 @@
     {
       "type": "text",
       "text": "In Wirklichkeit wird es massiv teurer.",
-      "position": "34.3%",
+      "position": "34.1%",
       "color": "white",
       "over_block": true,
       "height": 2,
@@ -363,17 +363,173 @@
     {
       "type": "block",
       "description": "Zusatzkosten für das Überwachungssystem",
-      "position": "35.1%",
+      "position": "35.3%",
       "amount": 159000000,
       "height": 2
     },
     {
       "type": "text",
       "text": "So nebenei: Das entspricht in etwa der Summe aller Stipendien, die letztes Jahr an Student*innen verliehen wurden.",
-      "position": "35.9%",
+      "position": "36.1%",
       "color": "white",
       "over_block": true,
       "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Haben wir nicht gerade über 6 Milliarden für Kampfjets ausgegeben, um den Luftraum zu überwachen?",
+      "position": "36.8%",
+      "color": "white",
+      "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "...nein, solche Kleinigkeiten wie ein Radar, um überhaupt zu wissen, was man denn angreifen könnte, sind im Kaufpreis nicht inbegriffen.",
+      "position": "37.5%",
+      "color": "white",
+      "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Aber das wirklich Unverschämte daran ist:",
+      "position": "38.8%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Die Motion zur Erhöhung des Armeebudgets wurde von der SVP und FDP nur 4 Tage nach Putins Invasion der Ukraine im Parlament eingereicht.",
+      "position": "39.6%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Während sich zehntausende Menschen für Frieden auf der Strasse versammelt und für stärkere Sanktionen eingesetzt haben...",
+      "position": "40.4%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "...wurde der Krieg in der Ukraine bereits schamlos ausgenutzt, um innenpolitische Aufrüstungsträume zu verwirklichen",
+      "position": "41.2%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Die auf Jahrzehnte hinaus geplante Aufrüstung beendet das Sterben in bewaffneten Konflikten nicht und macht unsere Welt weder friedlicher noch sicherer.",
+      "position": "42%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Diese Gelder retten kein einziges Menschenleben.",
+      "position": "42.8%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Kein Windrad wird damit gebaut.",
+      "position": "43.6%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Kein Rappen fliesst an die Kriegsopfer in der Ukraine oder den Wiederaufbau zerstörter Ortschaften und Infrastruktur.",
+      "position": "44.4%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Keine Pflegefachperson ausgebildet und besser bezahlt.",
+      "position": "45.2%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "An der Wintersession wird nun über das Budget 2023 und den Finanzplan 2024-2026 des Bundes beraten.",
+      "position": "46%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Für nächstes Jahr ist ein erster Teil der schrittweisen Erhöhung des Armeebudgets von 300 Millionen CHF eingeplant.",
+      "position": "46.8%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Das Parlament hat in diesem Rahmen die Chance, den bürgerlichen Mehrheitsentscheid zumindest teilweise zu korrigieren.",
+      "position": "47.6%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Zwei Anträge aus der Finanzkommission fordern einerseits die Erhöhung um 300 Millionen CHF aus dem Budget streichen, andererseits soll eine Neuberechnung der Armeebudgeterhöhung stattfinden.",
+      "position": "48.4%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Wir rufen die Mitglieder der Parlamentskammern auf, diesen Anträgen zuzustimmen.",
+      "position": "49.2%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Du kannst den Rest des Wegs überspringen und diesen Aufruf ganz am Ende unterschreiben...",
+      "position": "50%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "... aber warte doch noch kurz damit, wir kommen bald zu einem wichtigen Meilenstein.",
+      "position": "50.8%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Neu soll das Armeebudget an das Bruttoinlandprodukt gekoppelt werden.",
+      "position": "51.6%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Sprich: Egal wie hoch die Wirtschaftsleistung der Schweiz in einigen Jahren sein wird...",
+      "position": "52.4%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "...die Ausgaben für das Militär sollen 1% dieser Summe entsprechen.",
+      "position": "53.2%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Der heutige Stand des Armeebudgets ist 5,2 Milliarden Franken.",
+      "position": "54%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Du hast jetzt also erst gerade das aktuelle Budget durchgescrollt, das gut die Hälfte des Budget 2030 ausmacht.",
+      "position": "54.8%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Und dem weiteren Anstieg des Budgets gemäss BIP steht nichts im Weg...",
+      "position": "%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "... ausser uns!",
+      "position": "%",
       "width": "0.7%"
     },
     {
