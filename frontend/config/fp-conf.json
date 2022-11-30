@@ -281,7 +281,72 @@
       "position": "25.6%",
       "color": "white",
       "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Zum Beispiel werden bei einem Ausfall einer Hausaufgabenstunde über mehrere Woche keine Vikar*innen eingestellt",
+      "position": "26.3%",
+      "color": "white",
+      "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "...oder die Hürden zum Eintritt ins Gymnasium erhöht.",
+      "position": "27%",
+      "color": "white",
+      "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Wir zitieren Ueli an dieser Stelle gerne nochmals.",
+      "position": "28.7%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "«Ich habe das Gefühl, dass man sich beim Verteidigungsdepartement überschätzt, wenn man denkt, dass man all das Geld ausgeben kann.»",
+      "position": "29.5%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Das sehen wir dezidiert anders.",
+      "position": "30.3%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Erst vor wenigen Wochen wurde bekannt, dass die Kosten für ein IT-Projekt der Armee massiv aus dem Ruder laufen.",
+      "position": "31.1%",
+      "width": "0.7%"
+    },
+    {
+      "type": "block",
+      "description": "Beschaffungskosten des neuen Luftraum-Überwachungssystems",
+      "position": "31.9%",
+      "amount": 155000000,
       "height": 2
+    },
+    {
+      "type": "text",
+      "text": "Das VBS hat sich bei der Berechnung offenbar deutlich «verschätzt».",
+      "position": "32.7%",
+      "color": "white",
+      "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "",
+      "position": "99%",
+      "width": "0.7%"
     }
   ]
 }
