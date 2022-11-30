@@ -6,8 +6,8 @@
       "text": "Willst du sehen, wie viel uns die massive Erhöhung des Armeebudgets kosten wird?"
     },
     "outro": {
-      "title": "Aufgerüstet in die Krise.",
-      "text": "Willst du sehen, wie viel uns die massive Erhöhung des Armeebudgets kosten wird?"
+      "title": "Keine sinn- und planlose Aufrüstung der Armee",
+      "text": "Die massive Erhöhung der Militärausgaben wirft die Frage auf, welche Form der Sicherheitspolitik den Schutz der Bevölkerung tatsächlich gewährleistet. Wir fordern statt blinder Aufrüstung eine öffentlicheDiskussion über ein umfassendes Sicherheitskonzept, das auf sozialer und ökologischer Sicherheit sowie einem starken Gesundheitssystem basiert."
     }
   },
   "scale": {
@@ -22,7 +22,7 @@
       },
       {
         "type": "block",
-        "description": "Die Fläche dieses Rechtecks stellt 1'000 CHF dar.",
+        "description": "1'000 CHF",
         "position": "25%",
         "color": "accent",
         "width": "25%",
@@ -31,7 +31,7 @@
       },
       {
         "type": "block",
-        "description": "Diese Fläche sind 100'000 CHF.",
+        "description": "100'000 CHF",
         "position": "50%",
         "color": "accent",
         "amount": 100000,
@@ -40,7 +40,7 @@
       },
       {
         "type": "text",
-        "text": "Wie sehen dann 9.4 Milliarden Franken aus? Finde es mit uns heraus!",
+        "text": "Ready für 9,4 Millarden Franken?",
         "color": "white",
         "position": "75%",
         "width": "25%"
@@ -56,251 +56,143 @@
   "chart_mid": [
     {
       "type": "text",
-      "text": "Die Fläche dieses Balkens stellt die 9.4 Milliarden Franken dar, welcher der Bund ausgeben will.",
+      "text": "Das ist die Erhöhung des Armeebudgets, die eine rechtsbürgerliche Mehrheit im Parlament beschlossen hat.",
       "position": "0.1%"
     },
     {
       "type": "text",
-      "text": "Mit jedem grossen Strich auf dem Barometer am unteren Rand, kommt eine Million Franken hinzu.",
-      "position": "1%",
-      "width": "1%"
+      "text": "Mit jedem grossen Strich auf der Skala am unteren Rand kommt eine Million Franken hinzu.",
+      "position": "0.7%",
+      "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Der Counter unten links zeigt dir an, wie viel Geld du bereits zurückgelegt hast.",
-      "position": "3%",
-      "width": "1%"
+      "text": "9,4 Milliarden. Halleluja.",
+      "position": "1.5%",
+      "width": "0.7%"
     },
     {
       "type": "text",
       "text": "Lass uns diese Summe veranschaulichen.",
-      "position": "5%",
-      "width": "1%"
+      "position": "2.3%",
+      "width": "0.7%"
     },
     {
       "type": "block",
       "description": "Monatlicher Lohn einer Pflegefachperson",
-      "position": "7%",
+      "position": "3.1%",
       "amount": 7400,
       "height": 18,
-      "width": "1%"
+      "width": "0.7%"
     },
     {
       "type": "block",
       "description": "Stipendium für eine Schweizer Student*in",
-      "position": "9%",
+      "position": "3.9%",
       "amount": 7496,
       "height": 18,
-      "width": "1%"
+      "width": "0.7%"
     },
     {
       "type": "block",
       "description": "Jährliche Gesundheitsausgaben pro Kopf",
-      "position": "10%",
+      "position": "4.7%",
       "amount": 9612,
-      "height": 16
-    },
-    {
-      "type": "block",
-      "description": "Kosten für eine Solaranlage für ein Einfamilienhaus",
-      "position": "10%",
-      "amount": 12000,
-      "height": 14
+      "height": 16,
+      "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Übrigens könnte man mit 9.4 Milliarden Franken die Hälfte aller Einfamilienhäuser mit einer Solaranlage ausstatten.",
-      "position": "10%",
-      "width": "1%"
+      "text": "Richtig, wir sind noch nirgends.",
+      "position": "5.5%",
+      "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Mit diesem jährlichen Budget wäre die Energiewende ein Klacks.",
-      "position": "10%",
-      "width": "1%"
-    },
-    {
-      "type": "block",
-      "description": "Schutzsuchende Person mit Schutzstatus S pro Jahr",
-      "position": "10%",
-      "amount": 20000,
-      "height": 11
-    },
-    {
-      "type": "text",
-      "text": "Schauen wir doch mal was du als Durchschnittsschweizer*in im Vergleich so verdienst.",
-      "position": "10%"
+      "text": "Schauen wir doch mal, was du als Durchschnittsschweizer*in im Vergleich so verdienst.",
+      "position": "6.3%",
+      "width": "0.7%"
     },
     {
       "type": "block",
       "description": "Jährliches Durchschnittseinkommen in der Schweiz",
-      "position": "10%",
+      "position": "7.1%",
       "amount": 78000,
-      "height": 5.5
-    },
-    {
-      "type": "block",
-      "description": "Kosten für einen ganzjährigen Aufenthalt im Altersheim",
-      "position": "11%",
-      "amount": 116435,
-      "height": 4.7
+      "height": 14,
+      "width": "0.7%"
     },
     {
       "type": "block",
       "description": "Durchschnittliche Haushaltskosten für eine Familie",
-      "position": "12%",
+      "position": "7.9%",
       "amount": 130224,
-      "height": 4.3
+      "height": 14,
+      "width": "0.7%"
+    },
+    {
+      "type": "block",
+      "description": "Kosten für einen ganzjährigen Aufenthalt im Altersheim",
+      "position": "7.1%",
+      "amount": 116435,
+      "height": 14,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Mit 9,4 Milliarden könnte man viel anstellen.",
+      "position": "7.9%",
+      "width": "0.7%"
+    },
+    {
+      "type": "block",
+      "description": "Kosten für eine Solaranlage auf einem Einfamilienhaus",
+      "position": "8.7%",
+      "amount": 12000,
+      "height": 11
+    },
+    {
+      "type": "text",
+      "text": "Zum Beispiel könnte man mit 9,4 Milliarden die Hälfte aller Einfamilienhäuser mit einer Solaranlage ausstatten.",
+      "position": "9.5%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Damit hätte man 7% des schweizweiten Stromverbrauchs im letzten Jahr decken können.",
+      "position": "10.3%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Oder anders gesagt: Das AKW Beznau 1 könnte damit ersetzt werden.",
+      "position": "11.1%",
+      "width": "0.7%"
     },
     {
       "type": "text",
       "text": "Du bist fast am Ende.",
-      "position": "13%",
-      "width": "1%"
+      "position": "11.9%",
+      "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Ups, sorry, noch nicht mal in der Hälfte.",
-      "position": "15%",
-      "width": "1%"
+      "text": "Ups, sorry, höchstens mit der Geduld. Du bist bei 12.7%",
+      "position": "12.7%",
+      "width": "0.7%"
     },
     {
       "type": "text",
       "text": "Dass das Parlament mit diesem Entscheid «überbordet» sind nicht unsere Worte, sondern die von Ueli Maurer, SVP-Finanzminister und Bundesrat.",
-      "position": "17%"
+      "position": "13.5%",
+      "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Für ihn ist angesichts des massiven Finanzlochs der kommenden Jahre klar: The party is over.",
-      "position": "18%"
-    },
-    {
-      "type": "text",
-      "text": "«Es ist wie bei einem Rausch», so Ueli. «Wir haben in den letzten fünfzehn Jahren zu viel konsumiert, jetzt kommt der Kater.»",
-      "position": "19%"
-    },
-    {
-      "type": "text",
-      "text": "Was könnte man nach bürgerlicher Logik denn so streichen, um das Loch zu stopfen?",
-      "position": "20%"
-    },
-    {
-      "type": "text",
-      "text": "Bei der Gesundheit?",
-      "position": "21%"
-    },
-    {
-      "type": "block",
-      "description": "Staatliche Beiträge für mittelgrosses Spital",
-      "position": "22%",
-      "amount": 2000000,
-      "height": 3
-    },
-    {
-      "type": "block",
-      "description": "Durch den Bund getragene Impfkosten",
-      "position": "23%",
-      "amount": 6000000,
-      "height": 3
-    },
-    {
-      "type": "block",
-      "description": "Beiträge Kantone an das Unispital Zürich 2021",
-      "position": "24%",
-      "amount": 19500000,
-      "height": 3
-    },
-    {
-      "type": "text",
-      "text": "Da müsste man doch ziemlich viele Spitäler einstampfen. Andere Ideen?",
-      "position": "25%",
-      "width": "1%"
-    },
-    {
-      "type": "block",
-      "description": "Sparmassnahmen Deutschschweizer Kantone von 2013 bis 2015 in der Bildung",
-      "position": "27%",
-      "amount": 180000000,
-      "height": 2
-    },
-    {
-      "type": "text",
-      "text": "9.4 Milliarden. Krass.",
-      "position": "27.5%",
+      "text": "Dass das Parlament mit diesem Entscheid «überbordet» sind nicht unsere Worte, sondern die von Ueli Maurer, SVP-Finanzminister und Bundesrat.",
+      "position": "90.5%",
       "color": "white",
       "over_block": true,
       "height": 2
-    },
-    {
-      "type": "text",
-      "text": "Wir zitieren Ueli gerne nochmals: «Ich habe das Gefühl, dass man sich beim Verteidigungsdepartement überschätzt, wenn man denkt, dass man all das Geld ausgeben kann.»",
-      "position": "40%",
-      "width": "2%"
-    },
-    {
-      "type": "block",
-      "description": "Spendenerträge für das Jahr 2021 der Stiftung Pfarrer Sieber",
-      "position": "40%",
-      "amount": 11437135,
-      "height": 2
-    },
-    {
-      "type": "text",
-      "text": "9.4 Milliarden. Krass.",
-      "position": "40%"
-    },
-    {
-      "type": "block",
-      "description": "Jährlicher Gesamtbetrag des Kantons Zürich für die Förderung klimaneutraler Heizungen",
-      "position": "40%",
-      "amount": 15000000,
-      "height": 2
-    },
-    {
-      "type": "block",
-      "description": "Jährlicher Beitrag des Bundes an UNICEF",
-      "position": "40%",
-      "amount": 20000000,
-      "height": 2
-    },
-    {
-      "type": "block",
-      "description": "Beitrag des Bundes an sozialen Wohnungsbau",
-      "position": "41%",
-      "amount": 43000000,
-      "height": 2
-    },
-    {
-      "type": "text",
-      "text": "Inzwischen haben wir viele Millionen zusammen, oder? Doch schau mal: Wir sind erst bei ca. 10%.",
-      "position": "40.5%",
-      "width": "0.1%"
-    },
-    {
-      "type": "text",
-      "text": "Fahren wir mal noch etwas grössere Geschütze auf. (Höhö, GSoA, Geschütze).",
-      "position": "40.6%"
-    },
-    {
-      "type": "block",
-      "description": "Sparmassnahmen Deutschschweizer Kantone von 2013 bis 2015 in der Bildung",
-      "position": "42%",
-      "amount": 180000000,
-      "height": 1.5
-    },
-    {
-      "type": "block",
-      "description": "Humanitäre Hilfe während der Corona-Pandemie",
-      "position": "45%",
-      "amount": 188000000,
-      "height": 1.5
-    },
-    {
-      "type": "block",
-      "description": "Alle Stipendien, die im Jahr 2021 an insgesamt 46'241 Bezüger*innen verliehen wurde",
-      "position": "49%",
-      "amount": 351519825,
-      "height": 1.5
     }
   ]
 }

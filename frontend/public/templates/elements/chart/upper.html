@@ -1,0 +1,6 @@
+<div class="gsoa-fp-chart-partial gsoa-fp-chart-upper relative flex items-center">
+    {% set steps = config.chart_upper %}
+    {% for step in steps %}
+    {% include "elements/chart/partials/text.html" with {"step": step} only %}
+    {% endfor %}
+</div>
