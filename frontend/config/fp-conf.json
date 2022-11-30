@@ -118,7 +118,7 @@
       "description": "Jährliches Durchschnittseinkommen in der Schweiz",
       "position": "7.1%",
       "amount": 78000,
-      "height": 14,
+      "height": 7,
       "width": "0.7%"
     },
     {
@@ -126,64 +126,114 @@
       "description": "Durchschnittliche Haushaltskosten für eine Familie",
       "position": "7.9%",
       "amount": 130224,
-      "height": 14,
+      "height": 6,
       "width": "0.7%"
     },
     {
       "type": "block",
       "description": "Kosten für einen ganzjährigen Aufenthalt im Altersheim",
-      "position": "7.1%",
+      "position": "8.7%",
       "amount": 116435,
-      "height": 14,
+      "height": 6,
       "width": "0.7%"
     },
     {
       "type": "text",
       "text": "Mit 9,4 Milliarden könnte man viel anstellen.",
-      "position": "7.9%",
+      "position": "9.5%",
       "width": "0.7%"
     },
     {
       "type": "block",
       "description": "Kosten für eine Solaranlage auf einem Einfamilienhaus",
-      "position": "8.7%",
+      "position": "10.3%",
       "amount": 12000,
-      "height": 11
+      "height": 15,
+      "width": "0.7%"
     },
     {
       "type": "text",
       "text": "Zum Beispiel könnte man mit 9,4 Milliarden die Hälfte aller Einfamilienhäuser mit einer Solaranlage ausstatten.",
-      "position": "9.5%",
-      "width": "0.7%"
-    },
-    {
-      "type": "text",
-      "text": "Damit hätte man 7% des schweizweiten Stromverbrauchs im letzten Jahr decken können.",
-      "position": "10.3%",
-      "width": "0.7%"
-    },
-    {
-      "type": "text",
-      "text": "Oder anders gesagt: Das AKW Beznau 1 könnte damit ersetzt werden.",
       "position": "11.1%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Du bist fast am Ende.",
+      "text": "Damit hätte man 7% des schweizweiten Stromverbrauchs im letzten Jahr decken können.",
       "position": "11.9%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Ups, sorry, höchstens mit der Geduld. Du bist bei 12.7%",
+      "text": "Oder anders gesagt: Das AKW Beznau 1 könnte damit ersetzt werden.",
       "position": "12.7%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Dass das Parlament mit diesem Entscheid «überbordet» sind nicht unsere Worte, sondern die von Ueli Maurer, SVP-Finanzminister und Bundesrat.",
+      "text": "Du bist fast am Ende.",
       "position": "13.5%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Ups, sorry, höchstens mit der Geduld. Du bist bei 14.3%",
+      "position": "14.3%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Dass das Parlament mit diesem Entscheid «überbordet» sind nicht unsere Worte, sondern die von Ueli Maurer, SVP-Finanzminister und Bundesrat.",
+      "position": "15.1%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Für ihn ist angesichts des massiven Finanzlochs der kommenden Jahre klar: The party is over.",
+      "position": "15.9%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "«Es ist wie bei einem Rausch», so Ueli. «Wir haben in den letzten fünfzehn Jahren zu viel konsumiert, jetzt kommt der Kater.»",
+      "position": "16.7%",
+      "width": "0.7%"
+    },
+    {
+      "type": "img",
+      "url": "https://test.unsinnig.ch/img/cat.gif",
+      "position": "17.5%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "We feel you, Ueli.",
+      "position": "18.3%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Spass beiseite. Das drohende Milliardendefizit in der Bundeskasse wird schwerwiegende Sparmassnahmen in anderen Bereichen zur Folge haben.",
+      "position": "19.1%",
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "Zum Beispiel im Gesundheitswesen",
+      "position": "19.9%",
+      "width": "0.7%"
+    },
+    {
+      "type": "block",
+      "description": "Staatliche Beiträge für ein mittelgrosses Spital",
+      "position": "20.7%",
+      "amount": 2000000,
+      "height": 2
+    },
+    {
+      "type": "text",
+      "text": "Die jährlichen Kosten für ein mittelgroses Spital sind gerade als schwarzer Block an dir vorbeigeflogen. Hast du sie gesehen?",
+      "position": "20.8%",
       "width": "0.7%"
     },
     {
