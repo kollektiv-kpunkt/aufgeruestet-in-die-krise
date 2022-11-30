@@ -19,12 +19,18 @@ function setProgress(scrollBody) {
   const amount = (9400000000 * (progressPercent / 100)).toLocaleString('de-CH', { style: 'currency', currency: 'CHF' });
   counterNumber.innerText = `${amount}`;
   const jumper = document.querySelector(".gsoa-fp-chart-jumper");
-  if (progressPercent > 5) {
+  if (progressPercent > 15) {
     jumper.classList.remove("opacity-0");
     jumper.classList.add("opacity-30");
   } else {
     jumper.classList.add("opacity-0");
     jumper.classList.remove("opacity-30");
+  }
+
+  if (progressPercent > 14.3) {
+    document.querySelector(".gsoa-fp-progressbar").classList.remove("opacity-0")
+  } else {
+    document.querySelector(".gsoa-fp-progressbar").classList.add("opacity-0")
   }
 
 }
@@ -58,6 +64,6 @@ window.addEventListener("load", () => {
   const params = new URLSearchParams(window.location.search);
   if (params.has("p")) {
     ScrollToPosition(params.get("p"));
-    // window.history.replaceState({}, document.title, "/");
+    window.history.replaceState({}, document.title, "/");
   }
 });
