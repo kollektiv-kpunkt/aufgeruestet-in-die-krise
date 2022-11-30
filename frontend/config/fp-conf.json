@@ -344,6 +344,40 @@
     },
     {
       "type": "text",
+      "text": "Das hier sind die budgetierten 155 Millionen.",
+      "position": "33.5%",
+      "color": "white",
+      "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
+      "text": "In Wirklichkeit wird es massiv teurer.",
+      "position": "34.3%",
+      "color": "white",
+      "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "block",
+      "description": "Zusatzkosten für das Überwachungssystem",
+      "position": "35.1%",
+      "amount": 159000000,
+      "height": 2
+    },
+    {
+      "type": "text",
+      "text": "So nebenei: Das entspricht in etwa der Summe aller Stipendien, die letztes Jahr an Student*innen verliehen wurden.",
+      "position": "35.9%",
+      "color": "white",
+      "over_block": true,
+      "height": 2,
+      "width": "0.7%"
+    },
+    {
+      "type": "text",
       "text": "",
       "position": "99%",
       "width": "0.7%"
