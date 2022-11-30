@@ -20,8 +20,8 @@ use Pecee\SimpleRouter\SimpleRouter as Router;
 
 Router::get('/', function() use ($twig) {
     $page = [
-        "title" => "So soll das neue Armeebudget aussehen",
-        "description" => "Die bürgerliche Parlamentsmehrheit will bis 2030 das Armeebudget von 5,2 auf 9,4 Milliarden erhöhen. Schau dir mal an, was das bedeuten würde.",
+        "title" => "Le nouveau budget de l'armée",
+        "description" => "La majorité bourgeoise du Parlement veut faire passer le budget de l'armée de 5,2 à 9,4 milliards d'ici 2030. Regarde ce que ça signifierait.",
         "OG" => "/img/og.png"
     ];
     $config = json_decode(file_get_contents(__DIR__ . "/../config/fp-conf.json"), true);
@@ -30,8 +30,8 @@ Router::get('/', function() use ($twig) {
 
 Router::get('/datenschutz', function() use ($twig) {
     $page = [
-        "title" => "Datenschutz",
-        "description" => "Die bürgerliche Parlamentsmehrheit will bis 2030 das Armeebudget von 5,2 auf 9,4 Milliarden erhöhen. Schau dir mal an, was das bedeuten würde.",
+        "title" => "Protection des données",
+        "description" => "La majorité bourgeoise du Parlement veut faire passer le budget de l'armée de 5,2 à 9,4 milliards d'ici 2030. Regarde ce que ça signifierait.",
         "OG" => "/img/og.png"
     ];
     return $twig->render("datenschutz.html" , ["page" => $page, "environment" => $_ENV]);

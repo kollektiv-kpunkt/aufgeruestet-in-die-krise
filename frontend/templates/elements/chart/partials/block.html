@@ -21,11 +21,11 @@
                 <span class="gsoa-fp-chart-block-description-inner italic text-sm">{{ step.description }}</span>
             </div>
             {% if step.amount < 94000 %} <p class="mt-0 italic" style="font-size: 0.5rem;">
-                <0.001% von 9.4 Mia CHF</p>
+                <0.001% de 9,4 milliards de CHF</p>
                     {% else %}
                     <p class="mt-0 italic" style="font-size: 0.7rem;">{{ (step.amount / 9400000000 * 100) |round(3)}}%
-                        von
-                        9.4 Mia CHF</p>
+                        de
+                        9,4 de milliards de CHF</p>
                     {% endif %}
         </div>
     </div>

@@ -3,11 +3,11 @@
   "static": {
     "intro": {
       "title": "",
-      "text": "Willst du sehen, wie viel uns die massive Erhöhung des Armeebudgets kosten wird?"
+      "text": "Tu veux voir combien l'augmentation massive du budget de l'armée va nous coûter ?"
     },
     "outro": {
-      "title": "Keine sinn- und planlose Aufrüstung der Armee",
-      "text": "Die massive Erhöhung der Militärausgaben wirft die Frage auf, welche Form der Sicherheitspolitik den Schutz der Bevölkerung tatsächlich gewährleistet. Wir fordern statt blinder Aufrüstung eine öffentlicheDiskussion über ein umfassendes Sicherheitskonzept, das auf sozialer und ökologischer Sicherheit sowie einem starken Gesundheitssystem basiert."
+      "title": "Pas de réarmement insensé et non-planifié de l'armée",
+      "text": "L'augmentation massive des dépenses militaires soulève la question de savoir quelle forme de politique de sécurité garantit réellement la protection de la population. Au lieu d'un réarmement aveugle, nous demandons un débat public sur un concept de sécurité global, basé sur la sécurité sociale et écologique ainsi que sur un système de santé solide."
     }
   },
   "scale": {
@@ -15,7 +15,7 @@
     "blocks": [
       {
         "type": "text",
-        "text": "Das Wichtigste zuerst: Lass uns kurz den Massstab definieren.",
+        "text": "Commençons par le plus important : définissons brièvement l'échelle.",
         "color": "white",
         "position": "0%",
         "width": "25%"
@@ -40,7 +40,7 @@
       },
       {
         "type": "text",
-        "text": "Ready für 9,4 Millarden Franken?",
+        "text": "Prêt pour 9,4 milliards de francs ?",
         "color": "white",
         "position": "75%",
         "width": "25%"
@@ -56,30 +56,30 @@
   "chart_mid": [
     {
       "type": "text",
-      "text": "Das ist die Erhöhung des Armeebudgets, die eine rechtsbürgerliche Mehrheit im Parlament beschlossen hat.",
+      "text": "C'est l'augmentation du budget de l'armée décidée par la majorité bourgeoise de droite au Parlement.",
       "position": "0.1%"
     },
     {
       "type": "text",
-      "text": "Mit jedem grossen Strich auf der Skala am unteren Rand kommt eine Million Franken hinzu.",
+      "text": "Chaque grand trait sur l'échelle du bas ajoute un million de francs.",
       "position": "0.7%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "9,4 Milliarden. Halleluja.",
+      "text": "9,4 milliards de dollars. Hallelujah.",
       "position": "1.5%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Lass uns diese Summe veranschaulichen.",
+      "text": "Illustrons cette somme.",
       "position": "2.3%",
       "width": "0.7%"
     },
     {
       "type": "block",
-      "description": "Monatlicher Lohn einer Pflegefachperson",
+      "description": "Salaire mensuel d'un·e infirmier/ère",
       "position": "3.1%",
       "amount": 7400,
       "height": 18,
@@ -87,7 +87,7 @@
     },
     {
       "type": "block",
-      "description": "Stipendium für eine Schweizer Student*in",
+      "description": "Bourse d'études pour un·e étudiant·e suisse",
       "position": "3.9%",
       "amount": 7496,
       "height": 18,
@@ -95,7 +95,7 @@
     },
     {
       "type": "block",
-      "description": "Jährliche Gesundheitsausgaben pro Kopf",
+      "description": "Dépenses annuelles de santé par habitant·e",
       "position": "4.7%",
       "amount": 9612,
       "height": 16,
@@ -103,19 +103,19 @@
     },
     {
       "type": "text",
-      "text": "Richtig, wir sind noch nirgends.",
+      "text": "C'est vrai, nous ne sommes encore nulle part.",
       "position": "5.5%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Schauen wir doch mal, was du als Durchschnittsschweizer*in im Vergleich so verdienst.",
+      "text": "Voyons ce que tu gagnes en tant que citoyen·ne moyen·ne.",
       "position": "6.3%",
       "width": "0.7%"
     },
     {
       "type": "block",
-      "description": "Jährliches Durchschnittseinkommen in der Schweiz",
+      "description": "Revenu annuel moyen en Suisse",
       "position": "7.1%",
       "amount": 78000,
       "height": 7,
@@ -123,7 +123,7 @@
     },
     {
       "type": "block",
-      "description": "Durchschnittliche Haushaltskosten für eine Familie",
+      "description": "Coût moyen d'un ménage pour une famille",
       "position": "7.9%",
       "amount": 130224,
       "height": 6,
@@ -131,7 +131,7 @@
     },
     {
       "type": "block",
-      "description": "Kosten für einen ganzjährigen Aufenthalt im Altersheim",
+      "description": "Coûts d'un séjour à l'année dans une maison de retraite",
       "position": "8.7%",
       "amount": 116435,
       "height": 6,
@@ -139,13 +139,13 @@
     },
     {
       "type": "text",
-      "text": "Mit 9,4 Milliarden könnte man viel anstellen.",
+      "text": "On pourrait faire beaucoup de choses avec 9,4 milliards.",
       "position": "9.5%",
       "width": "0.7%"
     },
     {
       "type": "block",
-      "description": "Kosten für eine Solaranlage auf einem Einfamilienhaus",
+      "description": "Coûts d'une installation solaire sur une maison individuelle",
       "position": "10.3%",
       "amount": 12000,
       "height": 15,
@@ -153,49 +153,49 @@
     },
     {
       "type": "text",
-      "text": "Zum Beispiel könnte man mit 9,4 Milliarden die Hälfte aller Einfamilienhäuser mit einer Solaranlage ausstatten.",
+      "text": "Par exemple, 9,4 milliards permettraient d'équiper la moitié des maisons individuelles d'une installation solaire.",
       "position": "11.1%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Das AKW Beznau 1 könnte damit von einem Jahr aufs andere ersetzt werden.",
+      "text": "La centrale nucléaire de Beznau 1 pourrait ainsi être remplacée d'une année à l'autre.",
       "position": "11.9%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "In nur sechs Jahren könnte die Schweiz mit diesem Budget 100% ihrer Energieproduktion auf erneuerbare Energien umstellen.",
+      "text": "En six ans seulement, ce budget permettrait à la Suisse de convertir 100% de sa production d'énergie aux énergies renouvelables.",
       "position": "12.7%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Du bist fast am Ende.",
+      "text": "Tu es presque au bout.",
       "position": "13.5%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Ups, sorry, höchstens mit der Geduld. Du bist bei 14.3%",
+      "text": "Oups, désolé, tout au plus de la patience. Tu es à 14,3",
       "position": "14.3%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Dass das Parlament mit diesem Entscheid «überbordet» sind nicht unsere Worte, sondern die von Ueli Maurer, SVP-Finanzminister und Bundesrat.",
+      "text": "Que le Parlement « déborde » avec cette décision, ce ne sont pas nos mots, mais ceux d'Ueli Maurer, ministre des Finances et conseiller fédéral UDC.",
       "position": "15.1%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Für ihn ist angesichts des massiven Finanzlochs der kommenden Jahre klar: The party is over.",
+      "text": "Pour lui, au vu du gouffre financier massif des années à venir, il est clair que : The party is over.",
       "position": "15.9%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "«Es ist wie bei einem Rausch», so Ueli. «Wir haben in den letzten fünfzehn Jahren zu viel konsumiert, jetzt kommt der Kater.»",
+      "text": "« C'est comme une ivresse », explique Ueli. « Nous avons trop consommé au cours des quinze dernières années, maintenant la gueule de bois arrive. »",
       "position": "16.7%",
       "width": "0.7%"
     },
@@ -213,71 +213,71 @@
     },
     {
       "type": "text",
-      "text": "Spass beiseite. Das drohende Milliardendefizit in der Bundeskasse wird schwerwiegende Sparmassnahmen in anderen Bereichen zur Folge haben.",
+      "text": "Blague à part. La menace d'un déficit de plusieurs milliards dans les caisses de la Confédération entraînera de graves mesures d'économie dans d'autres domaines.",
       "position": "19.1%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Zum Beispiel im Gesundheitswesen",
+      "text": "Par exemple, dans le secteur de la santé",
       "position": "19.9%",
       "width": "0.7%"
     },
     {
       "type": "block",
-      "description": "Staatliche Beiträge für ein mittelgrosses Spital",
+      "description": "Contributions de l'État pour un hôpital de taille moyenne",
       "position": "20.7%",
       "amount": 2000000,
       "height": 2
     },
     {
       "type": "text",
-      "text": "Die jährlichen Kosten für ein mittelgrosses Spital sind gerade als schwarzer Block an dir vorbeigeflogen. Hast du sie gesehen?",
+      "text": "Les coûts annuels d'un hôpital de taille moyenne viennent de passer devant toi sous forme de bloc noir. Tu les as vus ?",
       "position": "20.8%",
       "width": "0.7%"
     },
     {
       "type": "block",
-      "description": "Durch den Bund getragenen Impfkosten (2022)",
+      "description": "Deux semaines de vol continu pour un hélicoptère de la Rega.",
       "position": "21.6%",
       "amount": 2000000,
       "height": 2
     },
     {
       "type": "text",
-      "text": "Alle Covid-Impfkosten der Schweiz 2022... verdunkeln nur kurz den Bildschirm, bevor du wieder die endlosen Weiten des Armeebudgets betrachten darfst.",
+      "text": "Assez de temps de vol Rega pour des dizaines d'interventions de sauvetage... n'obscurcissent que brièvement l'écran avant que tu ne puisses à nouveau contempler les étendues infinies du budget de l'armée.",
       "position": "21.7%",
       "width": "0.7%"
     },
     {
       "type": "block",
-      "description": "Kantonsbeiträge an das Unispital Zürich 2021",
+      "description": "Contributions cantonales à l'hôpital universitaire de Zurich en 2021",
       "position": "22.5%",
       "amount": 19500000,
       "height": 2
     },
     {
       "type": "text",
-      "text": "Wie die Pandemie gezeigt hat, sind Sparmassnahmen in der Gesundheitsversorgung nicht wirklich intelligent. Andere Ideen?",
+      "text": "Comme l'a montré la pandémie, les mesures d'économie dans les soins de santé ne sont pas vraiment intelligentes. D'autres idées ?",
       "position": "23.2%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Wie wär's mit der Bildung?",
+      "text": "Et l'éducation ?",
       "position": "24%",
       "width": "0.7%"
     },
     {
       "type": "block",
-      "description": "Sparmassnahmen deutschschweizer Kantone von 2013 bis 2015 in der Bildung",
+      "description": "Mesures d'économie des cantons suisses alémaniques de 2013 à 2015 dans le domaine de la formation",
       "position": "24.8%",
       "amount": 180000000,
       "height": 2
     },
     {
       "type": "text",
-      "text": "Wie das konkret aussieht?",
+      "text": "Comment cela se présente-t-il concrètement ?",
       "position": "25.6%",
       "color": "white",
       "over_block": true,
@@ -286,7 +286,7 @@
     },
     {
       "type": "text",
-      "text": "Zum Beispiel werden bei einem Ausfall einer Hausaufgabenstunde über mehrere Woche keine Vikar*innen eingestellt",
+      "text": "Par exemple, si une heure de devoirs est annulée pendant plusieurs semaines, aucun enseignant n'est engagé.",
       "position": "26.3%",
       "color": "white",
       "over_block": true,
@@ -295,7 +295,7 @@
     },
     {
       "type": "text",
-      "text": "...oder die Hürden zum Eintritt ins Gymnasium erhöht.",
+      "text": "...ou en augmentant les obstacles à l'entrée au lycée. ",
       "position": "27%",
       "color": "white",
       "over_block": true,
@@ -304,38 +304,38 @@
     },
     {
       "type": "text",
-      "text": "Wir zitieren Ueli an dieser Stelle gerne nochmals.",
+      "text": "Nous avons le plaisir de citer à nouveau Ueli à cette occasion.",
       "position": "28.7%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "«Ich habe das Gefühl, dass man sich beim Verteidigungsdepartement überschätzt, wenn man denkt, dass man all das Geld ausgeben kann.»",
+      "text": "«J'ai l'impression qu'au Département de la défense, on se surestime si on pense pouvoir dépenser tout cet argent.»",
       "position": "29.5%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Das sehen wir dezidiert anders.",
+      "text": "Nous ne sommes pas du tout d'accord.",
       "position": "30.3%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Erst vor wenigen Wochen wurde bekannt, dass die Kosten für ein IT-Projekt der Armee massiv aus dem Ruder laufen.",
+      "text": "Il y a quelques semaines seulement, on apprenait que les coûts d'un projet informatique de l'armée avaient massivement dérapé.",
       "position": "31.1%",
       "width": "0.7%"
     },
     {
       "type": "block",
-      "description": "Beschaffungskosten des neuen Luftraum-Überwachungssystems",
+      "description": "Coûts d'acquisition du nouveau système de surveillance de l'espace aérien",
       "position": "31.9%",
       "amount": 155000000,
       "height": 2
     },
     {
       "type": "text",
-      "text": "Das VBS hat sich bei der Berechnung offenbar deutlich «verschätzt».",
+      "text": "Le DDPS s'est manifestement « trompé » dans ses calculs.",
       "position": "32.7%",
       "color": "white",
       "over_block": true,
@@ -344,7 +344,7 @@
     },
     {
       "type": "text",
-      "text": "Das hier sind die budgetierten 155 Millionen.",
+      "text": "Voici les 155 millions budgétés.",
       "position": "33.4%",
       "color": "white",
       "over_block": true,
@@ -353,7 +353,7 @@
     },
     {
       "type": "text",
-      "text": "In Wirklichkeit wird es massiv teurer.",
+      "text": "En réalité, le coût sera massivement plus élevé.",
       "position": "34.1%",
       "color": "white",
       "over_block": true,
@@ -362,14 +362,14 @@
     },
     {
       "type": "block",
-      "description": "Zusatzkosten für das Überwachungssystem",
+      "description": "Coûts supplémentaires pour le système de surveillance",
       "position": "35.3%",
       "amount": 159000000,
       "height": 2
     },
     {
       "type": "text",
-      "text": "So nebenei: Das entspricht in etwa der Summe aller Stipendien, die letztes Jahr an Student*innen verliehen wurden.",
+      "text": "A côté de cela, ça correspond à peu près à la somme de toutes les bourses attribuées l'année dernière à des étudiant·e·s.",
       "position": "36.1%",
       "color": "white",
       "over_block": true,
@@ -378,7 +378,7 @@
     },
     {
       "type": "text",
-      "text": "Aber diese Zusatzkosten sind läppisch im Vergleich mit dem massiven und unkontrollierten Wachstum des Armeebudgets.",
+      "text": "Mais ces coûts supplémentaires sont dérisoires par rapport à la croissance massive et incontrôlée du budget de l'armée.",
       "position": "36.8%",
       "color": "white",
       "over_block": true,
@@ -387,7 +387,7 @@
     },
     {
       "type": "text",
-      "text": "Denn das Armeebudget soll in Zukunft 1% des Bruttoinlandproduktes betragen und so ohne politische Debatte oder Kontrolle planlos wachsen.",
+      "text": "En effet, le budget de l'armée devrait à l'avenir s'élever à 1% du produit intérieur brut et croître ainsi de manière anarchique, sans débat ni contrôle politique.",
       "position": "37.5%",
       "color": "white",
       "over_block": true,
@@ -396,127 +396,127 @@
     },
     {
       "type": "text",
-      "text": "Und das wirklich Unverschämte daran ist:",
+      "text": "Et ce qui est vraiment scandaleux :",
       "position": "38.8%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Die Motion zur Erhöhung des Armeebudgets wurde von der SVP und FDP nur 4 Tage nach Putins Invasion der Ukraine im Parlament eingereicht.",
+      "text": "La motion visant à augmenter le budget de l'armée a été déposée par l'UDC et le PLR au Parlement quatre jours seulement après l'invasion de l'Ukraine par Poutine.",
       "position": "39.6%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Während sich zehntausende Menschen für Frieden auf der Strasse versammelt und für stärkere Sanktionen eingesetzt haben...",
+      "text": "Alors que des dizaines de milliers de personnes se sont rassemblées dans les rues pour réclamer la paix et des sanctions supplémentaires…",
       "position": "40.4%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "...wurde der Krieg in der Ukraine bereits schamlos ausgenutzt, um innenpolitische Aufrüstungsträume zu verwirklichen",
+      "text": "....la guerre en Ukraine a déjà été exploitée sans vergogne pour réaliser des rêves de réarmement en politique intérieure.",
       "position": "41.2%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Die auf Jahrzehnte hinaus geplante Aufrüstung beendet das Sterben in bewaffneten Konflikten nicht und macht unsere Welt weder friedlicher noch sicherer.",
+      "text": "Le réarmement planifié pour des décennies ne met pas fin aux morts dans les conflits armés et ne rend notre monde ni plus pacifique ni plus sûr.",
       "position": "42%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Diese Gelder retten kein einziges Menschenleben.",
+      "text": "Ces fonds ne sauvent pas une seule vie humaine.",
       "position": "42.8%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Kein Windrad wird damit gebaut.",
+      "text": "Aucune éolienne ne sera construite avec.",
       "position": "43.6%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Kein Rappen fliesst an die Kriegsopfer in der Ukraine oder den Wiederaufbau zerstörter Ortschaften und Infrastruktur.",
+      "text": "Pas un centime n'est versé aux victimes de la guerre en Ukraine ou à la reconstruction des localités et des infrastructures détruites.",
       "position": "44.4%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Keine Pflegefachperson ausgebildet und besser bezahlt.",
+      "text": "Aucun infirmier/ère formé·e et mieux payé·e",
       "position": "45.2%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "An der Wintersession wird nun über das Budget 2023 und den Finanzplan 2024-2026 des Bundes beraten.",
+      "text": "Lors de la session d'hiver, les débats porteront sur le budget 2023 et le plan financier 2024-2026 de la Confédération.",
       "position": "46%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Für nächstes Jahr ist ein erster Teil der schrittweisen Erhöhung des Armeebudgets von 300 Millionen CHF eingeplant.",
+      "text": "Une première partie de l'augmentation progressive du budget de l'armée de 300 millions de CHF est prévue pour l'année prochaine.",
       "position": "46.8%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Das Parlament hat in diesem Rahmen die Chance, den bürgerlichen Mehrheitsentscheid zumindest teilweise zu korrigieren.",
+      "text": "Dans ce cadre, le Parlement a la possibilité de corriger, du moins en partie, la décision de la majorité bourgeoise.",
       "position": "47.6%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Zwei Anträge aus der Finanzkommission fordern einerseits die Erhöhung um 300 Millionen CHF aus dem Budget streichen, andererseits soll eine Neuberechnung der Armeebudgeterhöhung stattfinden.",
+      "text": "Deux propositions de la Commission des finances demandent, d'une part, de supprimer du budget l'augmentation de 300 millions de CHF et, d'autre part, de procéder à un nouveau calcul de l'augmentation du budget de l'armée.",
       "position": "48.4%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Wir rufen die Mitglieder der Parlamentskammern auf, diesen Anträgen zuzustimmen.",
+      "text": "Nous appelons les membres des chambres parlementaires à voter en faveur de ces motions.",
       "position": "49.2%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Du kannst den Rest des Wegs überspringen und diesen Aufruf ganz am Ende unterschreiben...",
+      "text": "Tu peux sauter le reste du chemin et signer cet appel tout à la fin...",
       "position": "50%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "... aber warte doch noch kurz damit, wir kommen bald zu einem wichtigen Meilenstein.",
+      "text": "... mais attends un peu, nous allons bientôt franchir une étape importante.",
       "position": "50.8%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Neu soll das Armeebudget ja an das Bruttoinlandprodukt gekoppelt werden.",
+      "text": "Le budget de l'armée doit désormais être lié au produit intérieur brut.",
       "position": "51.6%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Sprich: Egal wie hoch die Wirtschaftsleistung der Schweiz in einigen Jahren sein wird...",
+      "text": "En d'autres termes : quelle que soit la performance économique de la Suisse dans quelques années...",
       "position": "52.4%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "...die Ausgaben für das Militär sollen 1% dieser Summe entsprechen.",
+      "text": "...les dépenses militaires devraient correspondre à 1% de cette somme.",
       "position": "53.2%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Der heutige Stand des Armeebudgets ist 5,2 Milliarden Franken.",
+      "text": "Le niveau actuel du budget de l'armée est de 5,2 milliards de francs.",
       "position": "54%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Du hast jetzt also erst gerade das aktuelle Budget durchgescrollt, das gut die Hälfte des Budget 2030 ausmacht.",
+      "text": "Tu viens donc de faire défiler le budget actuel, qui représente une bonne moitié du budget 2030.",
       "position": "54.8%",
       "width": "0.7%"
     },
@@ -528,13 +528,13 @@
     },
     {
       "type": "text",
-      "text": "Und dem weiteren Anstieg des Budgets gemäss BIP steht nichts im Weg...",
+      "text": "Et rien ne s'oppose à la poursuite de l'augmentation du budget selon le PIB...",
       "position": "56.4%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "... ausser uns!",
+      "text": "... sauf nous !",
       "position": "57.2%",
       "width": "0.7%"
     },
