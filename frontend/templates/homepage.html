@@ -3,32 +3,16 @@
 <div class="gsoa-fp-outer h-screen w-screen overflow-x-auto bg-background">
     <div class="gsoa-fp-inner flex h-full">
         <div class="gsoa-fp-intro-wrapper gsoa-fp-screen flex">
-            {% include ("elements/intro.html") %}
-            {% include ("elements/scale.html") with {"scale" : scale} only %}
+            {% include ("elements/intro.html") with {"content" : config.static.intro} %}
+            {% include ("elements/scale.html") with {"scale" : config.scale} only %}
         </div>
         <div class="gsoa-fp-screen gsoa-fp-chart h-full flex flex-col">
             {% include ("elements/chart/upper.html") %}
             {% include ("elements/chart/mid.html") %}
             {% include ("elements/chart/lower.html") %}
         </div>
-        <div class="gsoa-fp-screen gsoa-fp-outro flex-shrink-0 h-full w-screen p-8 text-white" id="outro">
-            <h1 class="text-5xl font-extrabold mb-4">Aufgerüstet in die Krise.</h1>
-            <div class="gsoa-fp-intro-content mb-4">
-                <p>In pretium pellentesque sed adipiscing sit pharetra faucibus vitae. Ipsum ut volutpat vel
-                    pellentesque
-                    congue sagittis. Morbi felis fames hac non mattis sit purus duis sagittis. Risus in eu justo nisi
-                    tempor. Commodo sit
-                    aliquam in aliquam
-                    purus.</p>
-                <p>Ut morbi tempor tempus arcu quam. <b>Id tortor iaculis facilisis sed arcu a. Quis vel purus consequat
-                        morbi viverra amet</b>
-                    mauris scelerisque. Dignissim nunc ac diam in. Neque neque orci tellus ultricies feugiat malesuada
-                    quam
-                    nisi. Sed mi
-                    augue vitae nisi vitae ac tellus molestie.</p>
-            </div>
-            <a href="#" class="gsoa-fp-intro-button text-accent font-extrabold">Scroll nach rechts <i
-                    data-feather="arrow-right" class="inline w-6 h-6"></i></a>
+        <div class="gsoa-fp-outro-wrapper gsoa-fp-screen flex">
+            {% include ("elements/outro.html") with {"content" : config.static.outro} %}
         </div>
     </div>
 </div>

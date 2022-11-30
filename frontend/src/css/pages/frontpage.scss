@@ -1,15 +1,12 @@
 .gsoa-fp-intro-wrapper {
-    flex-shrink: 0;
 
     .gsoa-fp-intro-inner {
         width: 100vw;
-        flex-shrink: 0;
     }
 
     .gsoa-fp-intro {
         width: 100vw;
         max-width: calc(29rem + 4rem);
-        flex-shrink: 0;
     }
 }
 
@@ -22,6 +19,11 @@
 
     .gsoa-set-width {
         width: calc(var(--amount) * var(--ppa) * var(--bheight, 1));
+    }
+
+    .gsoa-fp-chart-block-description,
+    .gsoa-fp-chart-text-inner p {
+        max-width: 60vw;
     }
 
     .gsoa-fp-amount-block-outer {
@@ -62,13 +64,23 @@
                 background-position: calc(71000000 * var(--ppa)) bottom;
             }
 
-            .gsoa-fp-chart-block-description {
-                max-width: 60vw;
-            }
-
             .gsoa-fp-chart-text-inner p {
                 max-width: 75vw;
                 margin: 0 auto;
+            }
+
+            .gsoa-fp-amount-block-baro {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 10;
+                background-image: url("/img/baro-neg.svg");
+                background-blend-mode: exclusion;
+                background-repeat: repeat-x;
+                background-size: calc(500000 * var(--ppa)) auto;
+                background-position: 0 bottom;
             }
         }
 
@@ -85,6 +97,52 @@
 
         .gsoa-fp-chart-element {
             height: 100%;
+        }
+    }
+}
+
+.gsoa-fp-outro-inner {
+    width: 100vw;
+}
+
+.gsoa-fp-outro {
+    width: 100vw;
+    max-width: calc(29rem + 4rem);
+
+    .gsoa-fp-some-share-button {
+        width: calc(50% - 0.25rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.5rem;
+        padding: 0.5rem;
+        background-color: var(--accent-color);
+        font-size: 0.75rem;
+        line-height: 0.8;
+
+        @media (max-width: 780px) {
+            width: 100%;
+        }
+
+        i {
+            width: 0.75rem;
+            height: 0.75rem;
+        }
+
+        &[data-sharetype="whatsapp"] {
+            --accent-color: #25D366;
+        }
+
+        &[data-sharetype="facebook"] {
+            --accent-color: #4267B2;
+        }
+
+        &[data-sharetype="twitter"] {
+            --accent-color: #1DA1F2;
+        }
+
+        &[data-sharetype="telegram"] {
+            --accent-color: #0088CC;
         }
     }
 }

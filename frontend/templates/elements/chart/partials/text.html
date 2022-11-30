@@ -1,11 +1,8 @@
 <div class="gsoa-fp-chart-text gsoa-fp-chart-text-outer flex items-center absolute" style="width: {{step.width|default("
-    0.5%")}}; left: {{step.position}}">
-    <div class="gsoa-fp-chart-text-inner w-screen sticky top-0 left-0">
-        {% if color %}
-        {% set color = color %}
-        {% else %}
-        {% set color = "text-white" %}
-        {% endif %}
-        <p class="w-full text-center font-extrabold {{color}}">{{ step.text }}</p>
+    0.5%")}}; left: {{step.position}}{{ step.over_block==true ? "; height:" ~ 100 / step.height|default(2) ~ "%" : "" }}">
+    <div class="gsoa-fp-chart-text-inner w-screen sticky top-0 left-0 h-full items-center flex{{step.over_block == true ? "
+        px-4 bg-black" : "" }}">
+        <p class="w-full mx-auto text-center font-extrabold{{" text-" ~ step.color|default("black")}}">{{ step.text }}
+        </p>
     </div>
 </div>

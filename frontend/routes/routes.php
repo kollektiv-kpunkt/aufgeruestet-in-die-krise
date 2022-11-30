@@ -20,9 +20,18 @@ use Pecee\SimpleRouter\SimpleRouter as Router;
 Router::get('/', function() use ($twig) {
     $page = [
         "title" => "Die Zahlen",
+        "description" => "Die bürgerliche Parlamentsmehrheit will bis 2030 das Armeebudget von 5,2 auf 9,4 Milliarden erhöhen. Schau dir mal an, was das bedeuten würde.",
         "OG" => "/img/og.png"
     ];
     $config = json_decode(file_get_contents(__DIR__ . "/../config/fp-conf.json"), true);
-    $scale = json_decode(file_get_contents(__DIR__ . "/../config/scale-conf.json"), true);
-    return $twig->render("homepage.html" , ["page" => $page, "environment" => $_ENV, "config" => $config, "scale" => $scale]);
+    return $twig->render("homepage.html" , ["page" => $page, "environment" => $_ENV, "config" => $config]);
+});
+
+Router::get('/datenschutz', function() use ($twig) {
+    $page = [
+        "title" => "Datenschutz",
+        "description" => "Die bürgerliche Parlamentsmehrheit will bis 2030 das Armeebudget von 5,2 auf 9,4 Milliarden erhöhen. Schau dir mal an, was das bedeuten würde.",
+        "OG" => "/img/og.png"
+    ];
+    return $twig->render("datenschutz.html" , ["page" => $page, "environment" => $_ENV]);
 });

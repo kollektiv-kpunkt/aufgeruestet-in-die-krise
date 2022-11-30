@@ -1,0 +1,30 @@
+<div class="gsoa-fp-outro-inner">
+    <div class=" gsoa-fp-outro h-full p-8 text-white relative">
+        <div class="gsoa-fp-outro-content">
+            <h1 class="text-5xl font-extrabold mb-4">{{content.title}}</h1>
+            <div class="gsoa-fp-outro-content mb-4">
+                <p>{{content.text}}</p>
+            </div>
+            <h2 class="text-3xl font-extrabold mt-8">Hilf mit!</h2>
+            <p class="text-sm">Wir haben eine Petition lanciert, um die sinnlose Armeebudgeterhöhung zu verhindern. Hilf
+                mit, indem du die
+                Petition unterschreibst:</p>
+            <a href="https://unsinnig.ch/"
+                class="gsoa-button gsoa-petition-button w-full flex justify-center items-center p-2 bg-accent mt-4 font-extrabold gap-x-2"
+                target="_blank">Ich unterschreibe<i data-feather="edit" class="h-5 w-5"></i></a>
+            <p class="text-sm mt-6">Hast du Freunde? Dann erzähl ihnen von dieser Seite!</p>
+            {% set sharetext = "Hoi👋\n\n💰Die bürgerliche Parlamentsmehrheit will bis 2030 das Armeebudget von 5,2 auf 9,4 Milliarden erhöhen. Diese praktische Verdoppelung der Armeeausgaben sind nicht möglich ohne massive Kürzungen in der Bildung, dem Klimaschutzes und dem Gesundheitswesen – Bereiche, die für die Sicherheit unerlässlich sind.\n\nHilf uns aufzuzeigen, wie viel Geld planlos in die Armee gepumpt wird, indem du diese Nachricht in deinem Umfeld teilst.💥"|url_encode %}
+            {% set twittertext = "💰Die Bürgerlichen wollen bis 2030 das Armeebudget auf 9,4 Milliarden erhöhen. Diese praktische Verdoppelung der Armeeausgaben sind nicht möglich ohne massive Kürzungen in der Bildung, dem Klimaschutzes und dem Gesundheitswesen.\n\nSchau selber:\n"|url_encode %}
+            <div class="gsoa-fp-some-share flex flex-wrap gap-2 mt-2 pb-8" data-sharetext="{{ sharetext }}" data-twittertext="{{twittertext}}">
+                <a href="#" class="gsoa-fp-some-share-button" data-sharetype="whatsapp">Auf WhatsApp teilen <i
+                        data-si="whatsapp"></i></a>
+                <a href="#" class="gsoa-fp-some-share-button" data-sharetype="telegram">Auf Telegram teilen <i
+                        data-si="telegram"></i></a>
+                <a href="#" class="gsoa-fp-some-share-button" data-sharetype="facebook">Auf Facebook teilen <i
+                        data-si="facebook"></i></a>
+                <a href="#" class="gsoa-fp-some-share-button" data-sharetype="twitter">Auf Twitter teilen <i
+                        data-si="twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

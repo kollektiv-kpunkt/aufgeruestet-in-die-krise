@@ -1,6 +1,5 @@
 <div class="text-white">
-    <div class="gsoa-fp-screen gsoa-fp-scale h-full flex gsoa-set-width relative gsoa-set-width items-center"
-        style="--amount: 300000000">
+    <div class="gsoa-fp-screen gsoa-fp-scale h-full flex relative items-center" style="width: 800vw">
         {% for step in scale.blocks %}
         {% if step.type == "text" %}
         {% include "elements/chart/partials/text.html" with {"step": step, color: "text-white"} only %}

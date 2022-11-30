@@ -12,6 +12,7 @@ function setProgress(scrollBody) {
   const progressNumber = progressBar.querySelector("p");
 
   progressNumber.innerText = `${progressPercent.toFixed(2)}%`;
+  progressNumber.setAttribute("data-progress", progressPercent);
   progressBarInner.style.width = `${progressPercent.toFixed(2)}%`;
 
   const counterNumber = document.querySelector(".gsoa-fp-chart-counter-number");
@@ -20,10 +21,10 @@ function setProgress(scrollBody) {
   const jumper = document.querySelector(".gsoa-fp-chart-jumper");
   if (progressPercent > 5) {
     jumper.classList.remove("opacity-0");
-    jumper.classList.add("opacity-50");
+    jumper.classList.add("opacity-30");
   } else {
     jumper.classList.add("opacity-0");
-    jumper.classList.remove("opacity-50");
+    jumper.classList.remove("opacity-30");
   }
 
 }
@@ -46,7 +47,11 @@ document.querySelector(".gsoa-fp-chart-jumper").addEventListener("click", (e) =>
 
 document.querySelector(".gsoa-fp-intro-button").addEventListener("click", (e) => {
   e.preventDefault();
-  ScrollToPosition(0);
+  let scrollPosition = document.querySelector('.gsoa-fp-intro-inner').offsetWidth
+  document.querySelector('.gsoa-fp-outer').scrollTo({
+    left: scrollPosition,
+    behavior: 'smooth'
+  });
 });
 
 window.addEventListener("load", () => {
