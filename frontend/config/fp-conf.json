@@ -7,7 +7,7 @@
     },
     "outro": {
       "title": "Keine sinn- und planlose Aufrüstung der Armee",
-      "text": "Die massive Erhöhung der Militärausgaben wirft die Frage auf, welche Form der Sicherheitspolitik den Schutz der Bevölkerung tatsächlich gewährleistet. Wir fordern statt blinder Aufrüstung eine öffentlicheDiskussion über ein umfassendes Sicherheitskonzept, das auf sozialer und ökologischer Sicherheit sowie einem starken Gesundheitssystem basiert."
+      "text": "Die massive Erhöhung der Militärausgaben wirft die Frage auf, welche Form der Sicherheitspolitik den Schutz der Bevölkerung tatsächlich gewährleistet. Wir fordern statt blinder Aufrüstung eine öffentliche Diskussion über ein umfassendes Sicherheitskonzept, das auf sozialer und ökologischer Sicherheit sowie einem starken Gesundheitssystem basiert."
     }
   },
   "scale": {
@@ -238,14 +238,14 @@
     },
     {
       "type": "block",
-      "description": "Durch den Bund getragenen Impfkosten (2022)",
+      "description": "Zwei Wochen Dauerflugzeit für einen Rega-Helikopter.",
       "position": "21.6%",
       "amount": 2000000,
       "height": 2
     },
     {
       "type": "text",
-      "text": "Alle Covid-Impfkosten der Schweiz 2022... verdunkeln nur kurz den Bildschirm, bevor du wieder die endlosen Weiten des Armeebudgets betrachten darfst.",
+      "text": "Genug Rega-Flugzeit für Dutzende Rettungseinsätze... verdunkeln nur kurz den Bildschirm, bevor du wieder die endlosen Weiten des Armeebudgets betrachten darfst.",
       "position": "21.7%",
       "width": "0.7%"
     },
