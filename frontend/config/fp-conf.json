@@ -159,13 +159,13 @@
     },
     {
       "type": "text",
-      "text": "Damit hätte man 7% des schweizweiten Stromverbrauchs im letzten Jahr decken können.",
+      "text": "Das AKW Beznau 1 könnte damit von einem Jahr aufs andere ersetzt werden.",
       "position": "11.9%",
       "width": "0.7%"
     },
     {
       "type": "text",
-      "text": "Oder anders gesagt: Das AKW Beznau 1 könnte damit ersetzt werden.",
+      "text": "In nur sechs Jahren könnte die Schweiz mit diesem Budget 100% ihrer Energieproduktion auf erneuerbare Energien umstellen.",
       "position": "12.7%",
       "width": "0.7%"
     },
@@ -245,7 +245,7 @@
     },
     {
       "type": "text",
-      "text": "Alle Covid-Impfkosten der Schweiz... verdunkeln nur kurz den Bildschirm, bevor du wieder die endlosen Weiten des Armeebudgets betrachten darfst.",
+      "text": "Alle Covid-Impfkosten der Schweiz 2022... verdunkeln nur kurz den Bildschirm, bevor du wieder die endlosen Weiten des Armeebudgets betrachten darfst.",
       "position": "21.7%",
       "width": "0.7%"
     },
@@ -277,7 +277,7 @@
     },
     {
       "type": "text",
-      "text": "Wie das konkret ausseht?",
+      "text": "Wie das konkret aussieht?",
       "position": "25.6%",
       "color": "white",
       "over_block": true,
@@ -378,7 +378,7 @@
     },
     {
       "type": "text",
-      "text": "Haben wir nicht gerade über 6 Milliarden für Kampfjets ausgegeben, um den Luftraum zu überwachen?",
+      "text": "Aber diese Zusatzkosten sind läppisch im Vergleich mit dem massiven und unkontrollierten Wachstum des Armeebudgets.",
       "position": "36.8%",
       "color": "white",
       "over_block": true,
@@ -387,7 +387,7 @@
     },
     {
       "type": "text",
-      "text": "...nein, solche Kleinigkeiten wie ein Radar, um überhaupt zu wissen, was man denn angreifen könnte, sind im Kaufpreis nicht inbegriffen.",
+      "text": "Denn das Armeebudget soll in Zukunft 1% des Bruttoinlandproduktes betragen und so ohne politische Debatte oder Kontrolle planlos wachsen.",
       "position": "37.5%",
       "color": "white",
       "over_block": true,
@@ -396,7 +396,7 @@
     },
     {
       "type": "text",
-      "text": "Aber das wirklich Unverschämte daran ist:",
+      "text": "Und das wirklich Unverschämte daran ist:",
       "position": "38.8%",
       "width": "0.7%"
     },
@@ -492,7 +492,7 @@
     },
     {
       "type": "text",
-      "text": "Neu soll das Armeebudget an das Bruttoinlandprodukt gekoppelt werden.",
+      "text": "Neu soll das Armeebudget ja an das Bruttoinlandprodukt gekoppelt werden.",
       "position": "51.6%",
       "width": "0.7%"
     },
@@ -521,15 +521,21 @@
       "width": "0.7%"
     },
     {
+      "type": "img",
+      "url": "https://test.unsinnig.ch/img/stupid.gif",
+      "position": "55.6%",
+      "width": "0.7%"
+    },
+    {
       "type": "text",
       "text": "Und dem weiteren Anstieg des Budgets gemäss BIP steht nichts im Weg...",
-      "position": "%",
+      "position": "56.4%",
       "width": "0.7%"
     },
     {
       "type": "text",
       "text": "... ausser uns!",
-      "position": "%",
+      "position": "57.2%",
       "width": "0.7%"
     },
     {
